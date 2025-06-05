@@ -22,7 +22,7 @@ const Portfolio =()=>{
                 </div>
             </div>  
                 <div>
-                    <h3>Currently, I'm a freelance Web Developer and Co-Founder of Devrift Interprise Where we bring the Demands of Costomers and Business owners Website to LIFE and online Promotion</h3>
+                    {/* <h3>Currently, I'm a freelance Web Developer and Co-Founder of Devrift Interprise Where we bring the Demands of Costomers and Business owners Website to LIFE and online Promotion</h3> */}
                 </div>
         </div>
         </>
