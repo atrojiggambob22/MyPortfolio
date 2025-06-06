@@ -9,20 +9,32 @@ const Portfolio =()=>{
         <>  
         <div>
             <div className="d-grid">
+                <nav>
+                    <div>Works</div>
+                    <div>Mathias</div>
+                    <div>Garden</div>
+                </nav>
+               <div>
+                <FontAwesome />
                 <div>
-                    <h3>Web Research</h3>
-                    <h3>Software Dev</h3>
+                    <h3>Hi, I'm Mathias</h3>
                 </div>
                 <div>
-                    <h3>I'm Mathias Christopher a Web Developer Based in Nigeria</h3>
+                    <h3>Software and Front-End develeper you count on</h3>
                 </div>
                 <div>
-                    <h3>Web Developer</h3>
-                    <h3>Front-End Dev</h3>
+                    <p>Simplicity is my super power. I turn complex Ideas into experiences users love and investors trust i help. i help Upcomming Buisness's ,Founder, Saas craft story-driven brands and products. </p>
                 </div>
+               </div>
+               <div>
+                <button>Chat with me</button>
+               </div>
             </div>  
                 <div>
-                    {/* <h3>Currently, I'm a freelance Web Developer and Co-Founder of Devrift Interprise Where we bring the Demands of Costomers and Business owners Website to LIFE and online Promotion</h3> */}
+                    <div>
+                        <h3>Tiny fraction of my work</h3>
+                        <p>Teaming with founders and  buisness owner's to propel their next product through developing website's  that are  both functional and great looking</p>
+                    </div>
                 </div>
         </div>
         </>
