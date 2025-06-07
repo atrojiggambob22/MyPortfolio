@@ -12,8 +12,10 @@ import bayelsa from "../public/Images/bayelsa.jpeg"
 import me from "../public/Images/me.jpeg"
 // import LoadingCircleSpinner from "./LoadingCircleSpinner"
 import ScrollIndicator from "./ScrollIndicator"
-
-
+import FadeInSection from "./FadeInSection";
+import BounceIn from "./BounceIn";
+// import SlideIn from "./SlideIn"
+// import FlipIn from "./FlipIn"
 const Portfolio =()=>{
     return(
         <>  
@@ -28,28 +30,46 @@ const Portfolio =()=>{
                 
                <div className="text-center justify-center gap-20 py-[30px]">
                 {/* <FontAwesome /> */}
-                <div className="py-[20px]">
+                <BounceIn >
+                     <div className="py-[20px]">
                      <h3>Hi, I'm Mathias</h3>
                 </div>
+                </BounceIn>
+               
+                <FadeInSection delay={0.5}>
+
                 <div className="text-[60px]">
                     <h3>Software and <br /> Front-End develeper <br />you can count on</h3>
                 </div>
-                <div className="text-[20px] py-[13px]">
+                </FadeInSection>
+                <FadeInSection delay={0.9}>
+                    <div className="text-[20px] py-[13px]">
                     <p>Simplicity is my super power. I turn complex Ideas into experiences users love  <br /> and investors  trust i help. i help Upcomming Buisness's , <br />Founder, Saas  craft story-driven brands and products.</p>
                 </div>
+                </FadeInSection>
+                
                </div>
-               <div  className="text-center justify-center gap-20 text-white  ">
+               
+
+               <div  className="text-center justify-center gap-20 text-white  mb-[140px]">
+                
                 <button className="navbtns  p-2 px-[20px]">Chat with me</button>
                </div>
+               
             </div>  
                 <div className="middleman mb-[90px]">
+                    <FadeInSection>
+
                     <div>
                         <h3 className="py-5 text-[30px]">Tiny fraction of my work</h3>
                         <p className="flex justify-start w-[40%]">Teaming with founders and  buisness owner's to propel their next product through developing website's  that are  both functional and great looking.</p>
                     </div>
+                    </FadeInSection>
                     
                     <div className="Projects">
 
+                   
+                    
                     <div className="flex babeofthemeall">
                         <div className="babafirspac" style={{width:"50%"}}>
                             <div className="firstspac">
@@ -71,6 +91,7 @@ const Portfolio =()=>{
                         </div>
                         
                     </div>
+                    
 
                      <div className="flex babeofthemeall">
                          <div>
