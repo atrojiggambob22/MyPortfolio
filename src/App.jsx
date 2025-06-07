@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 // import "./index.css"
 import './App.css'
+
 import './Portfolio.css';
 import Portfolio from './Portfolio'
 
@@ -11,6 +12,7 @@ function App() {
 
   return (
    <>
+   
    <Portfolio/>
    </>
   )

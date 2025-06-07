@@ -1,1 +1,149 @@
 @import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    font-family: "Montserrat", sans-serif, "Poppins";
+  font-optical-sizing: auto;
+  font-weight:400;
+  font-style: normal;
+  overflow-x: hidden;
+ 
+}
+.navbtns{
+    background-color: black;
+    border-radius: 20px;
+
+}
+
+.Projects img{
+    margin: 20px;
+    width:60%;
+    border:8px solid rgb(255, 255, 255);
+    border-radius: 40px;
+    max-height:40vh;
+}
+.babeofthemeall{
+    margin:90px auto ;
+}
+.firstspac{
+    display: flex;
+    /* background-color: red; */
+    padding:30px;
+    /* width:50%; */
+    border-radius: 40px;
+    background-color: rgba(181, 181, 181, 0.219);
+}
+.firimfmfnspa4 img{
+    position: relative;
+    left: 10px;
+    /* width:50%; */
+}
+.firstspac2{
+    position: relative;
+    left:-60px !important;
+}
+.middleman{
+   position: relative;
+   left: 300px;
+}
+/* Styling for the first image in the space category which is the space1 img */
+
+.babafirspac{
+    margin: 0;
+    width:60%;
+    margin-right: 20px;
+}
+.firimfmfnspa{
+   
+    transform: rotate(30.5deg);
+}
+.firimfmfnspa2{
+    
+    transform: rotate(-25.5deg);
+}
+
+.minsidespace1{
+    border-radius: 30px;
+    background-color: rgba(181, 181, 181, 0.219);
+    /* background-color: red; */
+    height:25vh;
+    width:25%;
+    color: black;
+    margin-bottom: 10px;
+    position: relative;
+    overflow: hidden;
+    /* left:-3%; */
+    /* width: ; */
+}
+.kings-ofmin{
+    display: flex;
+}
+.kings-ofmin img{
+    width: 120px;
+    max-height: 160px;
+    margin: 10px 0;
+    border-radius: 20px;
+}
+
+.ogapics{
+    transition: .9s ease-in-out;
+    transition-delay: .5s;
+}
+.ogapics:hover{
+    
+    color: white;
+    background-color: rgba(0, 0, 255, 0.515);
+}
+.miningforme{
+    position: relative;
+    left:20px;
+    border: 5px rgb(255, 255, 255) solid;
+    transform: rotate(15.5deg);
+    transition: .8s ease-in-out;
+    transition-delay: .4s;
+}
+.miningforme:hover{
+    border:rgba(0, 0, 0, 0.34) solid 5px;
+}
+.miningforme2{
+    border: 5px rgb(255, 255, 255) solid;
+    transform: rotate(-5.5deg);
+}
+.miningform2:hover{
+    border:rgba(0, 0, 0, 0.34) solid 5px;
+}
+.miningforme4{
+     border: 5px rgb(255, 255, 255) solid;
+    transform: rotate(5.5deg);
+    position: relative;
+    left:-10px;
+    transition: .8s ease-in-out;
+    transition-delay: .4s;
+}
+.minviebe{
+    transition: .8s ease-in-out;
+    transition-delay: .4s;
+}
+.minviebe:hover{
+    background-color: rgba(255, 0, 0, 0.825);
+   color: white;
+    /* box-shadow: 0 5px 15px black; */
+}
+.miningforme4:hover{
+    border:rgba(0, 0, 0, 0.34) solid 5px;
+}
+
+.minsidespace1 p{
+    overflow-y:hidden;
+    font-size:20px;
+}
+/* .firimfmfnspa2:hover{
+    animation: spin 0.8s linear infinite;
+} */
+/* This is a style for to make an element animation name called spin to rotate from it's current deg to 360deg */
+/* @keyframes spin{
+    from{transform: rotate(-23.5deg); }
+    to{ tranfrom:rotate(360deg);}
+} */
