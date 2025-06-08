@@ -17,6 +17,7 @@ import BounceIn from "./BounceIn";
 import SlideIn from "./SlideIn"
 import flower from "../public/Images/flower.png"
 import flower2 from "../public/Images/flower2.png"
+import Beast from "../public/Images/react.png"
 // import FlipIn from "./FlipIn"
 const Portfolio =()=>{
     return(
