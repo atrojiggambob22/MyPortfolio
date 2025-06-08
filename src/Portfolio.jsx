@@ -15,12 +15,14 @@ import ScrollIndicator from "./ScrollIndicator"
 import FadeInSection from "./FadeInSection";
 import BounceIn from "./BounceIn";
 import SlideIn from "./SlideIn"
+import flower from "../public/Images/flower.png"
+import flower2 from "../public/Images/flower2.png"
 // import FlipIn from "./FlipIn"
 const Portfolio =()=>{
     return(
         <>  
         <ScrollIndicator/>
-        <div>
+        <div className="bg-gray-100">
             <div >
                 <nav className="flex flex-row  text-center justify-center gap-20 my-[20px]">
                     <div>Works</div>
@@ -28,18 +30,24 @@ const Portfolio =()=>{
                     <div>Garden</div>
                 </nav>
                 
-               <div className="text-center justify-center gap-20 py-[30px]">
+               <div className="text-center justify-center gap-20 py-[30px] flex">
                 {/* <FontAwesome /> */}
-                <BounceIn >
-                     <div className="py-[20px]">
+                
+
+                <div className="relative  " >
+                {/* <img src={flower} alt=""  className="themigwei" /> */}
+
+                </div>
+                <div className="" style={{overflow:'hidden'}}>
+                    <BounceIn >
+                     <div className="py-[20px] ">
                      <h3>Hi, I'm Mathias</h3>
                 </div>
                 </BounceIn>
-               
-                <FadeInSection delay={0.5}>
+                     <FadeInSection delay={0.5}>
 
                 <div className="text-[60px]">
-                    <h3>Software and <br /> Front-End develeper <br />you can count on</h3>
+                    <h3> A <span style={{fontFamily: 'Italiana, serif', fontSize:'85px' }}>Software</span>  and <br /> <span style={{fontFamily: 'Italiana, serif', fontSize:'85px'}}>Front-End </span>  develeper <br />you can <span style={{fontFamily: 'Italiana, serif',fontSize:'85px' }}>Rely</span>  on</h3>
                 </div>
                 </FadeInSection>
                 <FadeInSection delay={0.9}>
@@ -47,7 +55,13 @@ const Portfolio =()=>{
                     <p>Simplicity is my super power. I turn complex Ideas into experiences users love  <br /> and investors  trust i help. i help Upcomming Buisness's , <br />Founder, Saas  craft story-driven brands and products.</p>
                 </div>
                 </FadeInSection>
-                
+                </div>
+               
+
+                 <div>
+                {/* <img src={flower2} alt="" className="themigwei" /> */}
+
+                </div>
                </div>
                
 
@@ -81,8 +95,8 @@ const Portfolio =()=>{
                         </div>
 
                         <div className="">
-                            <div className="minsidespace1">
-                                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa, tempora consectetur?</p>
+                            <div className="w-[35%] flowerighs" >
+                                <img src={flower} alt="" style={{border:"none"}} className="themigweimgds"/>
                         </div>
 
                         <div className="minsidespace1">
@@ -101,9 +115,9 @@ const Portfolio =()=>{
                     <SlideIn from="right" delay={0.6}>
 
                      <div className="flex babeofthemeall">
-                         <div className="relative left-[20px]">
-                            <div className="minsidespace1">
-                                 <p >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa, tempora consectetur? </p>
+                         <div className="">
+                           <div className="w-[35%] flowerighs3 " >
+                                <img src={flower2} alt="" style={{border:"none"}} className="themigweimgds"/>
                         </div>
 
                         <div className="minsidespace1">
@@ -137,8 +151,8 @@ const Portfolio =()=>{
                             </div>
                         </div>
                         <div className="">
-                            <div className="minsidespace1">
-                                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa, tempora consectetur? </p>
+                            <div className="w-[35%] flowerighs2" >
+                                <img src={flower} alt="" style={{border:"none"}} className="themigweimgds"/>
                         </div>
 
                         <div className="minsidespace1">
@@ -182,8 +196,8 @@ const Portfolio =()=>{
                     </div>
 
                     <div>
-                        <div className="flex justify-center">
-                             <p className="w-[40%]">Creativity has always been my escape -first through drawing, now through designe and developement. I find joy through discovering hidden food ,spots and mobile gaming
+                        <div className="flex  gap-[40px]">
+                             <p className="w-[60%]">Creativity has always been my escape -first through drawing, now through designe and developement. I find joy through discovering hidden food ,spots and mobile gaming
                            </p>
 
                            <p className="w-[30%]">I Love new places,Peaople,new conversation and the stories they bring

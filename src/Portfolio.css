@@ -3,6 +3,7 @@
 @tailwind components;
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
 *{
     font-family: "Montserrat", sans-serif, "Poppins";
   font-optical-sizing: auto;
@@ -14,7 +15,11 @@
 .navbtns{
     background-color: black;
     border-radius: 20px;
+    margin: 40px ;
 
+}
+.navbtns:hover{
+    box-shadow: 0 4px 15px black;
 }
 
 .Projects img{
@@ -75,6 +80,39 @@
     overflow: hidden;
    
 }
+/* This is for the flower img */
+.flowerighs{
+    border-radius:40px;
+    background-color: rgb(255, 255, 255);
+     margin-bottom: 40px;
+}
+.flowerighs img{
+    position: relative;
+    left:20px;
+     margin: 30px 20px;
+   
+}
+.flowerighs3{
+     border-radius:40px;
+    background-color:lightgray;
+     margin-bottom: 40px;
+}
+.flowerighs3 img{
+    position: relative;
+    left:20px;
+     margin: 30px 20px;
+}
+.flowerighs2{
+     border-radius:40px;
+    background-color: rgba(247, 247, 166, 0.306);
+     margin-bottom: 40px;
+}
+.flowerighs2 img{
+    position: relative;
+    left:20px;
+     margin: 30px 20px;
+}
+
 .kings-ofmin{
     display: flex;
 }
@@ -142,11 +180,14 @@
     overflow-y:hidden;
     font-size:15px;
 }
-/* .firimfmfnspa2:hover{
-    animation: spin 0.8s linear infinite;
-} */
+.themigwei:hover{
+    animation: spin 1s linear infinite;
+}
+.themigweimgds:hover{
+    animation: spin 1s linear infinite;
+}
 /* This is a style for to make an element animation name called spin to rotate from it's current deg to 360deg */
-/* @keyframes spin{
+@keyframes spin{
     from{transform: rotate(-23.5deg); }
     to{ tranfrom:rotate(360deg);}
-} */
+}
