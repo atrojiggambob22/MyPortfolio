@@ -33,7 +33,7 @@
     padding:30px;
     /* width:50%; */
     border-radius: 40px;
-    background-color: rgba(181, 181, 181, 0.219);
+    background-color: rgba(181, 181, 181, 0.085);
 }
 .firimfmfnspa4 img{
     position: relative;
@@ -60,22 +60,20 @@
     transform: rotate(30.5deg);
 }
 .firimfmfnspa2{
-    
     transform: rotate(-25.5deg);
 }
 
 .minsidespace1{
     border-radius: 30px;
-    background-color: rgba(181, 181, 181, 0.219);
-    /* background-color: red; */
+    background-color: rgba(181, 181, 181, 0.065);
+   /* padding: 40px; */
     height:25vh;
-    width:25%;
+    width:35%;
     color: black;
     margin-bottom: 10px;
     position: relative;
     overflow: hidden;
-    /* left:-3%; */
-    /* width: ; */
+   
 }
 .kings-ofmin{
     display: flex;
@@ -122,6 +120,11 @@
     transition: .8s ease-in-out;
     transition-delay: .4s;
 }
+
+/* This is the style for the section for check out the site */
+.minofmeintg{
+    background-color:rgba(128, 128, 128, 0.16);
+}
 .minviebe{
     transition: .8s ease-in-out;
     transition-delay: .4s;
@@ -137,7 +140,7 @@
 
 .minsidespace1 p{
     overflow-y:hidden;
-    font-size:20px;
+    font-size:15px;
 }
 /* .firimfmfnspa2:hover{
     animation: spin 0.8s linear infinite;

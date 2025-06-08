@@ -14,7 +14,7 @@ import me from "../public/Images/me.jpeg"
 import ScrollIndicator from "./ScrollIndicator"
 import FadeInSection from "./FadeInSection";
 import BounceIn from "./BounceIn";
-// import SlideIn from "./SlideIn"
+import SlideIn from "./SlideIn"
 // import FlipIn from "./FlipIn"
 const Portfolio =()=>{
     return(
@@ -69,11 +69,11 @@ const Portfolio =()=>{
                     <div className="Projects">
 
                    
-                    
-                    <div className="flex babeofthemeall">
-                        <div className="babafirspac" style={{width:"50%"}}>
+                     <SlideIn from="left" delay={0.4}>
+                            <div className="flex babeofthemeall">
+                        <div className="babafirspac" style={{width:"40%"}}>
                             <div className="firstspac">
-                            <img src={space1} alt="" className="firimfmfnspa2"  />
+                            <img src={space1} alt="" className="firimfmfnspa2"   />
                              <img src={space2} alt="" className="firimfmfnspa" />
                             </div>
                             
@@ -91,10 +91,17 @@ const Portfolio =()=>{
                         </div>
                         
                     </div>
+                     <div className="minofmeintg flex gap-[160px] w-[45%] relative left-[80px] p-5 rounded-[50px]" >
+                        <h3 className="relative top-[5px] left-[20px]">You can click on this button to check the site out</h3>
+                        <div className="bg-black text-white p-[10px] rounded-4xl "><button>Check it Out</button></div>
+                    </div>
+                     </SlideIn>
                     
+                    
+                    <SlideIn from="right" delay={0.6}>
 
                      <div className="flex babeofthemeall">
-                         <div>
+                         <div className="relative left-[20px]">
                             <div className="minsidespace1">
                                  <p >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa, tempora consectetur? </p>
                         </div>
@@ -105,16 +112,25 @@ const Portfolio =()=>{
                         </p>
                         </div>
                         </div>
-                        <div  className="babafirspac relative left-[-40%]">
-                            <div className="firstspac relative left-[120px] w-[80%]">
-                            <img src={chrisban1} alt="" className="firimfmfnspa2" style={{width:"50%"}}  />
-                             <img src={chrisban2} alt="" className="firimfmfnspa" style={{width:"50%"}}/>
+                        <div  className="babafirspac relative left-[-35%]">
+                            <div className="firstspac relative left-[190px] w-[65%]">
+                            <img src={chrisban1} alt="" className="firimfmfnspa2" style={{width:"40%"}}  />
+                             <img src={chrisban2} alt="" className="firimfmfnspa" style={{width:"40%"}}/>
                             </div>
                         </div>
                     </div>
 
+                    <div className="minofmeintg flex gap-[160px] w-[45%] relative left-[80px] p-5 rounded-[50px]" >
+                        <h3 className="relative top-[5px] left-[20px]">You can click on this button to check the site out</h3>
+                        <div className="bg-black text-white p-[10px] rounded-4xl "><button>Check it Out</button></div>
+                    </div>
+
+                    </SlideIn>
+
+                    <SlideIn from="left" delay={0.7}>
+
                      <div className="flex babeofthemeall">
-                        <div  className="babafirspac firimfmfnspa4" style={{width:"50%"}}>
+                        <div  className="babafirspac firimfmfnspa4" style={{width:"40%"}}>
                            <div className="firstspac ">
                             <img src={devrift1} alt="" className="firimfmfnspa2"  />
                              <img src={devrift2} alt="" className="firimfmfnspa firstspac2" />
@@ -130,6 +146,11 @@ const Portfolio =()=>{
                         </div>
                         </div>
                     </div>
+                     <div className="minofmeintg flex gap-[160px] w-[45%] relative left-[80px] p-5 rounded-[50px]" >
+                        <h3 className="relative top-[5px] left-[20px]">You can click on this button to check the site out</h3>
+                        <div className="bg-black text-white p-[10px] rounded-4xl "><button>Check it Out</button></div>
+                    </div>
+                    </SlideIn>
 
                     </div>
                 </div>
