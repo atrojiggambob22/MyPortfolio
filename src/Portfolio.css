@@ -46,9 +46,37 @@
     /* width:50%; */
 }
 .firstspac2{
+    
     position: relative;
     left:-60px !important;
 }
+/* This is for the image horizintal scrolling infininte */
+.babascroll{
+    overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+  /* left:20%; */
+}
+.imgscrol{
+     overflow: hidden;
+    /* display: inline-block; */
+  white-space: nowrap;
+  animation: scroll-left 20s linear infinite;
+}
+.imgscrol img{
+    width: 80% !important;
+    margin: 10px;
+    vertical-align: middle;
+}
+/* @keyframes scroll-left {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-30%);
+  }
+} */
+
 .middleman{
    position: relative;
    left: 300px;

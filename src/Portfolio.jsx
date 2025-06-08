@@ -18,11 +18,16 @@ import SlideIn from "./SlideIn"
 import flower from "../public/Images/flower.png"
 import flower2 from "../public/Images/flower2.png"
 import Beast from "../public/Images/react.png"
-// import FlipIn from "./FlipIn"
+import Csslogo from "../public/Images/cssp.png"
+import HtmlLogo from "../public/Images/htmlp.png"
+import TwindLogo from "../public/Images/twind.png"
+import BStrap from "../public/Images/bstrap.png"
+// import FlipIn from "../FlipIn"
 const Portfolio =()=>{
     return(
         <>  
         <ScrollIndicator/>
+       
         <div className="bg-gray-100">
             <div >
                 <nav className="flex flex-row  text-center justify-center gap-20 my-[20px]">
@@ -72,6 +77,26 @@ const Portfolio =()=>{
                </div>
                
             </div>  
+
+            <div className=" babascroll" >
+
+            <div className="flex my-[50px] mb-[20%] imgscrol"  >
+                
+                <img src={Beast} alt="" className="w-[40%]" />
+                <img src={Csslogo} alt="" className="w-[40%]" />
+                <img src={HtmlLogo} alt="" className="w-[40%]" />
+                <img src={TwindLogo} alt="" className="w-[40%]" />
+                <img src={BStrap} alt="" className="w-[40%]" />
+                {/* We are duplicating for endles loops */}
+                 {/* <img src={Beast} alt="" className="w-[40%]" />
+                <img src={Csslogo} alt="" className="w-[40%]" />
+                <img src={HtmlLogo} alt="" className="w-[40%]" />
+                <img src={TwindLogo} alt="" className="w-[40%]" />
+                <img src={BStrap} alt="" className="w-[40%]" /> */}
+
+                
+            </div>
+            </div>
                 <div className="middleman mb-[90px]">
                     <FadeInSection>
 
@@ -97,6 +122,8 @@ const Portfolio =()=>{
 
                         <div className="">
                             <div className="w-[35%] flowerighs" >
+                                {/* <img src={Beast} alt="" className="themigweimgds" style={{border:"none"}} /> */}
+
                                 <img src={flower} alt="" style={{border:"none"}} className="themigweimgds"/>
                         </div>
 
@@ -210,6 +237,8 @@ const Portfolio =()=>{
                     </div>
 
                 </div>
+
+
                 <div className="minviebe w-[60%] relative left-[20%] rounded-[40px] bg-gray-200 text-red-500" >
                     <div>
                     {/* <FontAwesomeIcon icon={}/> */}
