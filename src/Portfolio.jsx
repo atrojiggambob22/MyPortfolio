@@ -16,12 +16,14 @@ import FadeInSection from "./FadeInSection";
 import BounceIn from "./BounceIn";
 import SlideIn from "./SlideIn"
 import flower from "../public/Images/flower.png"
+import pinkflower from "../public/Images/pinkflower.png"
 import flower2 from "../public/Images/flower2.png"
 import Beast from "../public/Images/react.png"
 import Csslogo from "../public/Images/cssp.png"
 import HtmlLogo from "../public/Images/htmlp.png"
 import TwindLogo from "../public/Images/twind.png"
 import BStrap from "../public/Images/bstrap.png"
+
 // import FlipIn from "../FlipIn"
 const Portfolio =()=>{
     return(
@@ -79,7 +81,8 @@ const Portfolio =()=>{
             </div>  
 
             <div className=" babascroll" >
-
+            
+            <FadeInSection delay={0.4} >
             <div className="flex my-[50px] mb-[20%] imgscrol"  >
                 
                 <img src={Beast} alt="" className="w-[40%]" />
@@ -97,6 +100,9 @@ const Portfolio =()=>{
 
                 
             </div>
+
+            </FadeInSection>
+
             </div>
                 <div className="middleman mb-[90px]">
                     <FadeInSection>
@@ -133,16 +139,16 @@ const Portfolio =()=>{
                         </div>
                         
                     </div>
-                     <div className="minofmeintg flex gap-[160px] w-[45%] relative left-[80px] p-5 rounded-[50px]" >
-                        <h3 className="relative top-[5px] left-[20px]">You can click on this button to check the site out</h3>
-                        <div className="bg-black text-white p-[10px] rounded-4xl "><button>Check it Out</button></div>
+                     <div className="minofmeintg flex gap-[160px] w-[45%] relative left-[60px] p-5 rounded-[50px]" >
+                        <h3 className="relative top-[1px] left-[20px] w-[70%]">This is a Real-Estate and Property website where you can scout and check for the best homes Wealth-Space Properties have </h3>
+                        <div className="bg-black text-white p-[10px] rounded-4xl px-[60px]"><button className="relative top-[25px] left-[-15px]" style={{overflow:'hidden', textWrap:'nowrap'}}>Check it Out</button></div>
                     </div>
                      </SlideIn>
                     
                     
                     <SlideIn from="left" delay={0.10}>
                             <div className="flex babeofthemeall">
-                        <div className="babafirspac" style={{width:"45%"}}>
+                        <div className="babafirspac" style={{width:"220%"}}>
                             <div className="firstspac w-[90%]">
                             <img src={chrisban1} alt="" className="firimfmfnspa2 "   />
                              <img src={chrisban2} alt="" className="firimfmfnspa" />
@@ -152,24 +158,25 @@ const Portfolio =()=>{
                         </div>
 
                         <div className="relative left-[-60px]">
-                            <div className=" w-[35%] flowerighs" >
+                            <div className=" w-[25%] flowerighs" >
                               
-                                <img src={flower} alt="" style={{border:"none"}} className="themigweimgds w-[10%]"/>
+                                <img src={pinkflower} alt="" style={{border:"none"}} className="themigweimgds w-[10%]"/>
                         </div>
 
-                        <div className=" w-[35%] flowerighs">
-<img src={HtmlLogo} alt="" className=" themigweimgds w-[10%]" />
+                        <div className=" w-[25%] flowerighs">
+                <img src={HtmlLogo} alt="" className=" themigweimgds w-[10%]" />
 
                          {/* <img src={Beast} alt=""className="themigweimgds" style={{border:"none", width:''}} /> */}
                         </div>
                         </div>
                         
                     </div>
-                     <div className="minofmeintg flex gap-[160px] w-[45%] relative left-[80px] p-5 rounded-[50px]" >
-                        <h3 className="relative top-[5px] left-[20px]">You can click on this button to check the site out</h3>
-                        <div className="bg-black text-white p-[10px] rounded-4xl "><button>Check it Out</button></div>
+                     <div className="minofmeintg flex gap-[160px] w-[45%] relative left-[40px] p-5 rounded-[50px]" >
+                         <h3 className="relative top-[1px] left-[20px] w-[70%]">This is a Landing Page for a bank and Perks that they offer including the admin dashboard and the user dashbaord </h3>
+                        <div className="bg-black text-white p-[10px] rounded-4xl px-[40px]"><button className="relative left-[-10px] top-[15px] " style={{overflow:'hidden', textWrap:'nowrap'}}>Check it Out</button></div>
                     </div>
                      </SlideIn>
+
                     <SlideIn from="right" delay={0.7}>
 
                         
@@ -200,8 +207,8 @@ const Portfolio =()=>{
                     </div>
 
                      <div className="minofmeintg flex gap-[160px] w-[45%] relative left-[80px] p-5 rounded-[50px]" >
-                        <h3 className="relative top-[5px] left-[20px]">You can click on this button to check the site out</h3>
-                        <div className="bg-black text-white p-[10px] rounded-4xl "><button>Check it Out</button></div>
+                        <h3 className="relative top-[1px] left-[20px] w-[70%]">This is Devrift a Website/Wep app development interprise which i the  Co-Founder  </h3>
+                        <div className="bg-black text-white p-[10px] rounded-4xl px-[60px]"><button className="relative top-[15px] left-[-15px]" style={{overflow:'hidden', textWrap:'nowrap'}}>Check it Out</button></div>
                     </div>
 
                      </SlideIn>
