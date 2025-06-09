@@ -83,8 +83,9 @@ const Portfolio =()=>{
             <div className="flex my-[50px] mb-[20%] imgscrol"  >
                 
                 <img src={Beast} alt="" className="w-[40%]" />
-                <img src={Csslogo} alt="" className="w-[40%]" />
                 <img src={HtmlLogo} alt="" className="w-[40%]" />
+
+                <img src={Csslogo} alt="" className="w-[40%]" />
                 <img src={TwindLogo} alt="" className="w-[40%]" />
                 <img src={BStrap} alt="" className="w-[40%]" />
                 {/* We are duplicating for endles loops */}
@@ -111,7 +112,7 @@ const Portfolio =()=>{
                    
                      <SlideIn from="left" delay={0.4}>
                             <div className="flex babeofthemeall">
-                        <div className="babafirspac" style={{width:"40%"}}>
+                        <div className="babafirspac" style={{width:"155%"}}>
                             <div className="firstspac">
                             <img src={space1} alt="" className="firimfmfnspa2"   />
                              <img src={space2} alt="" className="firimfmfnspa" />
@@ -121,14 +122,13 @@ const Portfolio =()=>{
                         </div>
 
                         <div className="">
-                            <div className="w-[35%] flowerighs" >
-                                {/* <img src={Beast} alt="" className="themigweimgds" style={{border:"none"}} /> */}
-
+                            <div className="w-[25%] flowerighs" >
+                              
                                 <img src={flower} alt="" style={{border:"none"}} className="themigweimgds"/>
                         </div>
 
-                        <div className="minsidespace1">
-                        <p> Quasi corrupti non odit sequi itaque? Necessitatibus, praesentium. Facilis.</p>
+                        <div className="w-[25%] flowerighs">
+                         <img src={Beast} alt=""className="themigweimgds" style={{border:"none", width:''}} />
                         </div>
                         </div>
                         
@@ -140,59 +140,72 @@ const Portfolio =()=>{
                      </SlideIn>
                     
                     
-                    <SlideIn from="right" delay={0.6}>
-
-                     <div className="flex babeofthemeall">
-                         <div className="">
-                           <div className="w-[35%] flowerighs3 " >
-                                <img src={flower2} alt="" style={{border:"none"}} className="themigweimgds"/>
-                        </div>
-
-                        <div className="minsidespace1">
-                        <p>
-                            Quasi corrupti non odit sequi itaque? Necessitatibus, praesentium. Facilis.
-                        </p>
-                        </div>
-                        </div>
-                        <div  className="babafirspac relative left-[-35%]">
-                            <div className="firstspac relative left-[190px] w-[65%]">
-                            <img src={chrisban1} alt="" className="firimfmfnspa2" style={{width:"40%"}}  />
-                             <img src={chrisban2} alt="" className="firimfmfnspa" style={{width:"40%"}}/>
+                    <SlideIn from="left" delay={0.10}>
+                            <div className="flex babeofthemeall">
+                        <div className="babafirspac" style={{width:"45%"}}>
+                            <div className="firstspac w-[90%]">
+                            <img src={chrisban1} alt="" className="firimfmfnspa2 "   />
+                             <img src={chrisban2} alt="" className="firimfmfnspa" />
                             </div>
-                        </div>
-                    </div>
-
-                    <div className="minofmeintg flex gap-[160px] w-[45%] relative left-[80px] p-5 rounded-[50px]" >
-                        <h3 className="relative top-[5px] left-[20px]">You can click on this button to check the site out</h3>
-                        <div className="bg-black text-white p-[10px] rounded-4xl "><button>Check it Out</button></div>
-                    </div>
-
-                    </SlideIn>
-
-                    <SlideIn from="left" delay={0.7}>
-
-                     <div className="flex babeofthemeall">
-                        <div  className="babafirspac firimfmfnspa4" style={{width:"40%"}}>
-                           <div className="firstspac ">
-                            <img src={devrift1} alt="" className="firimfmfnspa2"  />
-                             <img src={devrift2} alt="" className="firimfmfnspa firstspac2" />
-                            </div>
-                        </div>
-                        <div className="">
-                            <div className="w-[35%] flowerighs2" >
-                                <img src={flower} alt="" style={{border:"none"}} className="themigweimgds"/>
+                            
+                           
                         </div>
 
-                        <div className="minsidespace1">
-                        <p> Quasi corrupti non odit sequi itaque? Necessitatibus, praesentium. Facilis.</p>
+                        <div className="relative left-[-60px]">
+                            <div className=" w-[35%] flowerighs" >
+                              
+                                <img src={flower} alt="" style={{border:"none"}} className="themigweimgds w-[10%]"/>
+                        </div>
+
+                        <div className=" w-[35%] flowerighs">
+<img src={HtmlLogo} alt="" className=" themigweimgds w-[10%]" />
+
+                         {/* <img src={Beast} alt=""className="themigweimgds" style={{border:"none", width:''}} /> */}
                         </div>
                         </div>
+                        
                     </div>
                      <div className="minofmeintg flex gap-[160px] w-[45%] relative left-[80px] p-5 rounded-[50px]" >
                         <h3 className="relative top-[5px] left-[20px]">You can click on this button to check the site out</h3>
                         <div className="bg-black text-white p-[10px] rounded-4xl "><button>Check it Out</button></div>
                     </div>
-                    </SlideIn>
+                     </SlideIn>
+                    <SlideIn from="right" delay={0.7}>
+
+                        
+                    <div className="flex babeofthemeall">
+
+                        <div className="">
+                            <div className="w-[25%] flowerighs" >
+                              
+                                <img src={flower2} alt="" style={{border:"none"}} className="themigweimgds"/>
+                        </div>
+
+                        <div className="w-[25%] flowerighs ">
+                         <img src={Beast} alt=""className="themigweimgds" style={{border:"none", width:''}} />
+                        </div>
+
+                        </div>
+                        <div className="babafirspac relative left-[-45%]" style={{width:"155%"}}>
+                            <div className="firstspac">
+                            <img src={devrift1} alt="" className="firimfmfnspa2"   />
+                             <img src={devrift2} alt="" className="firimfmfnspa" />
+                            </div>
+                            
+                           
+                        </div>
+
+                        
+                        
+                    </div>
+
+                     <div className="minofmeintg flex gap-[160px] w-[45%] relative left-[80px] p-5 rounded-[50px]" >
+                        <h3 className="relative top-[5px] left-[20px]">You can click on this button to check the site out</h3>
+                        <div className="bg-black text-white p-[10px] rounded-4xl "><button>Check it Out</button></div>
+                    </div>
+
+                     </SlideIn>
+
 
                     </div>
                 </div>

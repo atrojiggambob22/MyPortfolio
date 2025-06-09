@@ -43,7 +43,8 @@
 .firimfmfnspa4 img{
     position: relative;
     left: 10px;
-    /* width:50%; */
+
+    /* width:90%; */
 }
 .firstspac2{
     
@@ -84,8 +85,9 @@
 /* Styling for the first image in the space category which is the space1 img */
 
 .babafirspac{
-    margin: 0;
-    width:60%;
+    /* margin: 40px 20%; */
+    /* margin-right: 140%; */
+    /* width:60%; */
     margin-right: 20px;
 }
 .firimfmfnspa{
@@ -93,19 +95,20 @@
     transform: rotate(30.5deg);
 }
 .firimfmfnspa2{
+
     transform: rotate(-25.5deg);
 }
 
 .minsidespace1{
     border-radius: 30px;
-    background-color: rgba(181, 181, 181, 0.065);
-   /* padding: 40px; */
-    height:25vh;
-    width:35%;
-    color: black;
-    margin-bottom: 10px;
+    /* background-color: rgba(181, 181, 181, 0.065); */
+  
+    /* height:25vh; */
+    /* width:20%; */
+    /* color: black; */
+    /* margin-bottom: 10px;
     position: relative;
-    overflow: hidden;
+    overflow: hidden; */
    
 }
 /* This is for the flower img */
@@ -204,10 +207,10 @@
     border:rgba(0, 0, 0, 0.34) solid 5px;
 }
 
-.minsidespace1 p{
+/* .minsidespace1 p{
     overflow-y:hidden;
     font-size:15px;
-}
+} */
 .themigwei:hover{
     animation: spin 1s linear infinite;
 }
