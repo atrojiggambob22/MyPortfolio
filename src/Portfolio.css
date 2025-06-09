@@ -16,6 +16,7 @@
     background-color: black;
     border-radius: 20px;
     margin: 40px ;
+    transition: .3s ease-in-out;
 
 }
 .navbtns:hover{
@@ -206,7 +207,30 @@
 .miningforme4:hover{
     border:rgba(0, 0, 0, 0.34) solid 5px;
 }
-
+/* All these are part of thhe footer */
+.thisimhs{
+    /* font-size: 30px; */
+    width: 180px;
+    /* margin: 0 40px; */
+    text-align: center;
+    /* text-wrap:nowrap ; */
+    
+}
+.beforethemfoots{
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+}
+footer{
+    position: relative;
+    left: -10px;
+}
+footer img{
+    max-width:95%;
+    margin: 10px;
+}
+.footer:hover{
+    animation: spin 1s linear infinite;
+}
 /* .minsidespace1 p{
     overflow-y:hidden;
     font-size:15px;
@@ -221,4 +245,72 @@
 @keyframes spin{
     from{transform: rotate(-23.5deg); }
     to{ tranfrom:rotate(360deg);}
+}
+@media  (min-width:200px) and (max-width:800px){
+    /* this style is for the paragraph  */
+    .firstvhaimsn{
+        font-size: 30px !important;
+    }
+    .firstvhaimsn span{
+        font-size: 50px !important;
+    }
+    /* This style is for the first p tag */
+    .firsdpdppp{
+        width: 90% !important;
+    }
+    .middleman{
+        left: 10px;
+    }
+    .babeofthemeall{
+        flex-direction: column !important;
+    }
+    /* styling for the sector with the stack logo */
+    .Whythem{
+        display: flex  !important;
+        justify-content: space-around;
+        position: relative;
+        left: -15px !important;
+        margin: 20px 10px;
+    }
+
+    /* This style is for the chrisbank side section */
+    .Whythem22{
+        left: 0px !important;
+    }
+    .flowerighs{
+        
+        width: 40% !important;
+    }
+
+    /* this style is for the section below flowerighs */
+    .minofmeintg{
+        flex-direction: column !important;
+        width: 80% !important;
+        left: 25px !important;
+    }
+    /* this style is for the div holdign the button below it */
+    .firstudbtn{
+      padding:10px !important;
+      width: 60% !important;
+      overflow: hidden;
+      position: relative;
+      left:40px;
+    }
+    .firstudbtn button{
+        top: 0 !important;
+        left: 25px !important;
+    }
+    .babafirspac{
+        width:100% !important;
+        /* margin-right: 0px !important; */
+    }
+    /* Styling the images side */
+    .babafirspac33{
+        position:  relative !important;
+        left:-4px !important;
+    }
+    .babafirspac433{
+        left: 0% !important;
+    }
+
 }

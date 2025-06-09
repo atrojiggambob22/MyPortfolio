@@ -34,9 +34,10 @@ function CustomCursor() {
         }
 
         .custom-cursor {
-          width: 10px;
-          height: 10px;
+          width: 15px;
+          height: 15px;
           background: black;
+          opacity:0.5;
           border-radius: 50%;
           position: fixed;
           top: 0;

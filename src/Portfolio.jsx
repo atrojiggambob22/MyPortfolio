@@ -54,7 +54,7 @@ const Portfolio =()=>{
                 </BounceIn>
                      <FadeInSection delay={0.5}>
 
-                <div className="text-[60px]">
+                <div className="text-[60px] firstvhaimsn">
                     <h3> A <span style={{fontFamily: 'Italiana, serif', fontSize:'85px' }}>Software</span>  and <br /> <span style={{fontFamily: 'Italiana, serif', fontSize:'85px'}}>Front-End </span>  develeper <br />you can <span style={{fontFamily: 'Italiana, serif',fontSize:'85px' }}>Rely</span>  on</h3>
                 </div>
                 </FadeInSection>
@@ -109,16 +109,16 @@ const Portfolio =()=>{
 
                     <div>
                         <h3 className="py-5 text-[30px]">Tiny fraction of my work</h3>
-                        <p className="flex justify-start w-[40%]">Teaming with founders and  buisness owner's to propel their next product through developing website's  that are  both functional and great looking.</p>
+                        <p className="flex justify-start w-[40%]    firsdpdppp">Teaming with founders and  buisness owner's to propel their next product through developing website's  that are  both functional and great looking.</p>
                     </div>
                     </FadeInSection>
                     
                     <div className="Projects">
 
                    
-                     <SlideIn from="left" delay={0.4}>
+                     <SlideIn from="left" delay={0.6}>
                             <div className="flex babeofthemeall">
-                        <div className="babafirspac" style={{width:"155%"}}>
+                        <div className="babafirspac babafirspac33 " style={{width:"155%"}}>
                             <div className="firstspac">
                             <img src={space1} alt="" className="firimfmfnspa2"   />
                              <img src={space2} alt="" className="firimfmfnspa" />
@@ -127,7 +127,7 @@ const Portfolio =()=>{
                            
                         </div>
 
-                        <div className="">
+                        <div className="Whythem">
                             <div className="w-[25%] flowerighs" >
                               
                                 <img src={flower} alt="" style={{border:"none"}} className="themigweimgds"/>
@@ -141,12 +141,12 @@ const Portfolio =()=>{
                     </div>
                      <div className="minofmeintg flex gap-[160px] w-[45%] relative left-[60px] p-5 rounded-[50px]" >
                         <h3 className="relative top-[1px] left-[20px] w-[70%]">This is a Real-Estate and Property website where you can scout and check for the best homes Wealth-Space Properties have </h3>
-                        <div className="bg-black text-white p-[10px] rounded-4xl px-[60px]"><button className="relative top-[25px] left-[-15px]" style={{overflow:'hidden', textWrap:'nowrap'}}>Check it Out</button></div>
+                        <div className="bg-black text-white p-[10px] rounded-4xl px-[60px] firstudbtn"><button className="relative top-[25px] left-[-15px]" style={{overflow:'hidden', textWrap:'nowrap'}}>Check it Out</button></div>
                     </div>
                      </SlideIn>
                     
                     
-                    <SlideIn from="left" delay={0.10}>
+                    <SlideIn from="left" delay={0.8}>
                             <div className="flex babeofthemeall">
                         <div className="babafirspac" style={{width:"220%"}}>
                             <div className="firstspac w-[90%]">
@@ -157,7 +157,7 @@ const Portfolio =()=>{
                            
                         </div>
 
-                        <div className="relative left-[-60px]">
+                        <div className="relative left-[-60px] Whythem Whythem22">
                             <div className=" w-[25%] flowerighs" >
                               
                                 <img src={pinkflower} alt="" style={{border:"none"}} className="themigweimgds w-[10%]"/>
@@ -173,16 +173,16 @@ const Portfolio =()=>{
                     </div>
                      <div className="minofmeintg flex gap-[160px] w-[45%] relative left-[40px] p-5 rounded-[50px]" >
                          <h3 className="relative top-[1px] left-[20px] w-[70%]">This is a Landing Page for a bank and Perks that they offer including the admin dashboard and the user dashbaord </h3>
-                        <div className="bg-black text-white p-[10px] rounded-4xl px-[40px]"><button className="relative left-[-10px] top-[15px] " style={{overflow:'hidden', textWrap:'nowrap'}}>Check it Out</button></div>
+                        <div className="bg-black text-white p-[10px] rounded-4xl px-[40px] firstudbtn"><button className="relative left-[-10px] top-[15px] " style={{overflow:'hidden', textWrap:'nowrap'}}>Check it Out</button></div>
                     </div>
                      </SlideIn>
 
-                    <SlideIn from="right" delay={0.7}>
+                    <SlideIn from="right" delay={0.10}>
 
                         
                     <div className="flex babeofthemeall">
 
-                        <div className="">
+                        <div className="Whythem">
                             <div className="w-[25%] flowerighs" >
                               
                                 <img src={flower2} alt="" style={{border:"none"}} className="themigweimgds"/>
@@ -193,7 +193,7 @@ const Portfolio =()=>{
                         </div>
 
                         </div>
-                        <div className="babafirspac relative left-[-45%]" style={{width:"155%"}}>
+                        <div className="babafirspac babafirspac433 relative left-[-45%]" style={{width:"155%"}}>
                             <div className="firstspac">
                             <img src={devrift1} alt="" className="firimfmfnspa2"   />
                              <img src={devrift2} alt="" className="firimfmfnspa" />
@@ -208,7 +208,7 @@ const Portfolio =()=>{
 
                      <div className="minofmeintg flex gap-[160px] w-[45%] relative left-[80px] p-5 rounded-[50px]" >
                         <h3 className="relative top-[1px] left-[20px] w-[70%]">This is Devrift a Website/Wep app development interprise which i the  Co-Founder  </h3>
-                        <div className="bg-black text-white p-[10px] rounded-4xl px-[60px]"><button className="relative top-[15px] left-[-15px]" style={{overflow:'hidden', textWrap:'nowrap'}}>Check it Out</button></div>
+                        <div className="bg-black text-white p-[10px] rounded-4xl px-[60px] firstudbtn"><button className="relative top-[15px] left-[-15px]" style={{overflow:'hidden', textWrap:'nowrap'}}>Check it Out</button></div>
                     </div>
 
                      </SlideIn>
@@ -279,10 +279,75 @@ const Portfolio =()=>{
                         <p className="p-[20px]">Whatsapp</p>
                     </div>
                 </div>
+                
+                <div className="my-[60px]">
+                    <footer className=" beforethemfoots">
+                        
 
-                <div className="text-[30px] thisimhs">
+                        <img src={flower} alt="" className="footer" />
+                        <img src={Beast} alt="" className="footer" />
+                        <img src={pinkflower} alt="" className="footer" />
+                           <img src={TwindLogo} alt="" />
+                        <img src={flower2} alt="" className="footer" />
+                        <img src={Beast} alt="" className="footer" />
+                        <img src={pinkflower} alt="" className="footer" /><img src={flower2} alt="" className="footer" />
+                        <img src={pinkflower} alt="" className="footer" />
+                       <img src={Beast} alt=""  className="footer"/>
+                      
+                          <img src={TwindLogo} alt="" />
+                        <img src={Beast} alt="" className="footer" />
+                        <img src={pinkflower} alt="" className="footer" />
+                           <img src={TwindLogo} alt="" />
+                        <img src={flower2} alt=""  className="footer"/>
+                      <img src={Beast} alt="" className="footer" />
+                        <img src={TwindLogo} alt="" />
+                        <img src={flower2} alt="" />
+                        <img src={pinkflower} alt="" className="footer" />
+                       <img src={Beast} alt="" className="footer" />
+                          <img src={flower} alt=""  className="footer"/>
+
+                        <img src={flower2} alt=""  className="footer"/>
+                        <img src={pinkflower} alt="" className="footer" />
+                           <img src={flower} alt="" className="footer" />
+                        <img src={flower2} alt=""  className="footer" />
+                        
+                          <div className="text-[30px] thisimhs" style={{fontFamily: 'Italiana, serif'}}>
                     Your Limit Is Your Imagination
+                        </div>
+                        <img src={flower2} alt="" className="footer" />
+                        <img src={TwindLogo} alt="" />
+                        <img src={pinkflower} alt=""  className="footer"/>
+
+                       
+
+                        <img src={TwindLogo} alt="" />
+                        <img src={Beast} alt="" className="footer" />
+                        <img src={pinkflower} alt=""  className="footer"/>
+                           <img src={flower} alt="" className="footer" />
+                        <img src={flower2} alt="" className="footer" />
+                       <img src={Beast} alt="" className="footer" />
+                        <img src={pinkflower} alt="" className="footer" /><img src={flower2} alt="" className="footer" />
+                        <img src={TwindLogo} alt="" />
+                        <img src={pinkflower} alt="" className="footer" />
+                       
+                        
+
+                        <img src={flower} alt="" className="footer" />
+                        <img src={TwindLogo} alt="" />
+                        <img src={pinkflower} alt="" className="footer" />
+                           <img src={TwindLogo} alt="" />
+                        <img src={flower2} alt="" className="footer" />
+                        <img src={Beast} alt="" className="footer" />
+                        <img src={TwindLogo} alt="" /><img src={flower2} alt="" className="footer" />
+                        <img src={pinkflower} alt=""  className="footer"/>
+                       <img src={Beast} alt="" className="footer" />
+
+                         <img src={pinkflower} alt="" className="footer" />
+                        {/* <img src={pinkflower} alt="" /> */}
+                        
+                    </footer>
                 </div>
+              
 
         </div>
         </>
