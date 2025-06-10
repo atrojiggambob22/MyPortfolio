@@ -10,6 +10,9 @@
   font-weight:400;
   font-style: normal;
   overflow-x: hidden;
+  margin: 0;
+  /* padding: 0; */
+  box-sizing: border-box;
  
 }
 .navbtns{
@@ -47,6 +50,9 @@
 
     /* width:90%; */
 }
+/* .nabafitsds p{
+     width:60% !important ;
+} */
 .firstspac2{
     
     position: relative;
@@ -247,12 +253,19 @@ footer img{
     to{ tranfrom:rotate(360deg);}
 }
 @media  (min-width:200px) and (max-width:800px){
+    nav{
+        color: teal;
+       
+    }
+   
     /* this style is for the paragraph  */
     .firstvhaimsn{
         font-size: 30px !important;
     }
     .firstvhaimsn span{
-        font-size: 50px !important;
+        color:teal;
+        font-size:50px !important;
+        font-weight: 900 !important;
     }
     /* This style is for the first p tag */
     .firsdpdppp{
@@ -261,6 +274,16 @@ footer img{
     .middleman{
         left: 10px;
     }
+    /* This style is for the first p tag  */
+    .firppdonf{
+        margin-top: 20px;
+        width: 100%;
+        left:10px !important;
+    }
+    .firppdonf p{
+        width: 90% !important;
+    }
+    
     .babeofthemeall{
         flex-direction: column !important;
     }
@@ -275,7 +298,7 @@ footer img{
 
     /* This style is for the chrisbank side section */
     .Whythem22{
-        left: 0px !important;
+        left:-20px !important;
     }
     .flowerighs{
         
@@ -285,8 +308,11 @@ footer img{
     /* this style is for the section below flowerighs */
     .minofmeintg{
         flex-direction: column !important;
-        width: 80% !important;
+        width:80% !important;
         left: 25px !important;
+    }
+    .minofmeintg h3{
+        width: 90%;
     }
     /* this style is for the div holdign the button below it */
     .firstudbtn{
@@ -294,7 +320,7 @@ footer img{
       width: 60% !important;
       overflow: hidden;
       position: relative;
-      left:40px;
+      left:60px;
     }
     .firstudbtn button{
         top: 0 !important;
@@ -388,6 +414,9 @@ footer img{
     .minofmeintg{
         top:-60px !important;
     }
+    .minofmeintg3332{
+        top:-90px !important;
+    }
     .Whythem{
         /* margin: 10px 0px !important; */
     }
@@ -400,6 +429,9 @@ footer img{
         border: 4px solid black !important;
     }
     .thisimhs{
+        display: none;
+    }
+    .beforethemfoots{
         display: none;
     }
 }

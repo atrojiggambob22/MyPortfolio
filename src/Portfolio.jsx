@@ -33,9 +33,9 @@ const Portfolio =()=>{
         <div className="bg-gray-100">
             <div >
                 <nav className="flex flex-row  text-center justify-center gap-20 my-[20px]">
-                    <div>Works</div>
-                    <div>Mathias</div>
-                    <div>Garden</div>
+                    <div style={{fontWeight:"600"}}>Works</div>
+                    <div style={{fontWeight:"600"}}>Mathias</div>
+                    <div style={{fontWeight:"600"}}>Garden</div>
                 </nav>
                 
                <div className="text-center justify-center gap-20 py-[30px] flex">
@@ -59,8 +59,8 @@ const Portfolio =()=>{
                 </div>
                 </FadeInSection>
                 <FadeInSection delay={0.9}>
-                    <div className="text-[20px] py-[13px]">
-                    <p>Simplicity is my super power. I turn complex Ideas into experiences users love  <br /> and investors  trust i help. i help Upcomming Buisness's , <br />Founder, Saas  craft story-driven brands and products.</p>
+                    <div className="w-[70%] relative left-[180px] firppdonf">
+                    <p>Simplicity is my super power. I turn complex Ideas into experiences users love  and investors  trust i help. i help Upcomming Buisness's ,Founder, Saas  craft story-driven brands and products.</p>
                 </div>
                 </FadeInSection>
                 </div>
@@ -139,7 +139,7 @@ const Portfolio =()=>{
                         </div>
                         
                     </div>
-                     <div className="minofmeintg flex gap-[160px] w-[45%] relative left-[60px] p-5 rounded-[50px]" >
+                     <div className="minofmeintg minofmeintg3332 flex gap-[160px] w-[45%] relative left-[60px] p-5 rounded-[50px]" >
                         <h3 className="relative top-[1px] left-[20px] w-[70%]">This is a Real-Estate and Property website where you can scout and check for the best homes Wealth-Space Properties have </h3>
                         <div className="bg-black text-white p-[10px] rounded-4xl px-[60px] firstudbtn"><button className="relative top-[25px] left-[-15px]" style={{overflow:'hidden', textWrap:'nowrap'}}>Check it Out</button></div>
                     </div>
@@ -171,7 +171,7 @@ const Portfolio =()=>{
                         </div>
                         
                     </div>
-                     <div className="minofmeintg flex gap-[160px] w-[45%] relative left-[40px] p-5 rounded-[50px]" >
+                     <div className="minofmeintg minofmeintg3332 flex gap-[160px] w-[45%] relative left-[40px] p-5 rounded-[50px]" >
                          <h3 className="relative top-[1px] left-[20px] w-[70%]">This is a Landing Page for a bank and Perks that they offer including the admin dashboard and the user dashbaord </h3>
                         <div className="bg-black text-white p-[10px] rounded-4xl px-[40px] firstudbtn"><button className="relative left-[-10px] top-[15px] " style={{overflow:'hidden', textWrap:'nowrap'}}>Check it Out</button></div>
                     </div>
