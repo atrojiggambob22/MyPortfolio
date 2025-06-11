@@ -55,7 +55,7 @@ const Portfolio =()=>{
                      <FadeInSection delay={0.5}>
 
                 <div className="text-[60px] firstvhaimsn">
-                    <h3> A <span style={{fontFamily: 'Italiana, serif', fontSize:'85px' }}>Software</span>  and <br /> <span style={{fontFamily: 'Italiana, serif', fontSize:'85px'}}>Front-End </span>  develeper <br />you can <span style={{fontFamily: 'Italiana, serif',fontSize:'85px' }}>Rely</span>  on</h3>
+                    <h3> A <span style={{fontFamily: 'Italiana, serif', fontSize:'85px' }}>Software</span>  and <br /> <span style={{fontFamily: 'Italiana, serif', fontSize:'85px'}}>Front-End </span>  developer <br />you can <span style={{fontFamily: 'Italiana, serif',fontSize:'85px' }}>Rely</span>  on</h3>
                 </div>
                 </FadeInSection>
                 <FadeInSection delay={0.9}>
@@ -294,7 +294,7 @@ const Portfolio =()=>{
                         </a>
                        
                         <a href="https://www.instagram.com/chriscodesdaily?igsh=anVrMnp3emp4NXQ2&utm_source=qr" target="_blank" rel="noopener noreferrer">
-                        <p className="p-[20px]">Instgram</p>
+                        <p className="p-[20px]">Instagram</p>
 
                         </a>
                         <a href="https://wa.me/2349049661994" target="_blank" rel="noopener noreferrer">
@@ -306,7 +306,7 @@ const Portfolio =()=>{
                 </div>
                 <div className="flex justify-center my-[50px] gap-[20px]">
                     <a href="https://x.com/mathiasonyebuc1?s=21&t=ZT2pp35h-vscuEFwYeHSsw" target="_blank" rel="noopener noreferrer"  className="p-[20px] mifhhrtno p[10px] rounded-2xl bg-gray-200" >
-                         <p>X (twiter)</p>
+                         <p>X (twitter)</p>
                     </a>
                     <a href="https://www.linkedin.com/in/mathias-onyebuchi-3556802a3?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" rel="noopener noreferrer" className="p-[20px] mifhhrtno p[10px] rounded-2xl bg-gray-200 ">
                                  <p  >Linked In</p>
