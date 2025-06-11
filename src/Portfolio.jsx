@@ -75,7 +75,11 @@ const Portfolio =()=>{
 
                <div  className="text-center justify-center gap-20 text-white  mb-[140px]">
                 
+                <a href="https://wa.me/2349049661994" target="_blank" rel="noopener noreferrer">
                 <button className="navbtns  p-2 px-[20px]">Chat with me</button>
+                </a>
+                
+
                </div>
                
             </div>  
@@ -141,7 +145,10 @@ const Portfolio =()=>{
                     </div>
                      <div className="minofmeintg minofmeintg3332 flex gap-[160px] w-[45%] relative left-[60px] p-5 rounded-[50px]" >
                         <h3 className="relative top-[1px] left-[20px] w-[70%]">This is a Real-Estate and Property website where you can scout and check for the best homes Wealth-Space Properties have </h3>
-                        <div className="bg-black text-white p-[10px] rounded-4xl px-[60px] firstudbtn"><button className="relative top-[25px] left-[-15px]" style={{overflow:'hidden', textWrap:'nowrap'}}>Check it Out</button></div>
+                        <a href="https://wealthspace-properties.vercel.app" target="_blank" rel="noopener noreferrer"className="bg-black text-white p-[10px] rounded-4xl px-[60px] firstudbtn">
+                              <button className="relative top-[25px] left-[-15px]" style={{overflow:'hidden', textWrap:'nowrap'}}>Check it Out</button>
+                        </a>
+                      
                     </div>
                      </SlideIn>
                     
@@ -173,7 +180,9 @@ const Portfolio =()=>{
                     </div>
                      <div className="minofmeintg minofmeintg3332 flex gap-[160px] w-[45%] relative left-[40px] p-5 rounded-[50px]" >
                          <h3 className="relative top-[1px] left-[20px] w-[70%]">This is a Landing Page for a bank and Perks that they offer including the admin dashboard and the user dashbaord </h3>
-                        <div className="bg-black text-white p-[10px] rounded-4xl px-[40px] firstudbtn"><button className="relative left-[-10px] top-[15px] " style={{overflow:'hidden', textWrap:'nowrap'}}>Check it Out</button></div>
+                        <a href="https://chrisbank.vercel.app" target="_blank" rel="noopener noreferrer"className="bg-black text-white p-[10px] rounded-4xl px-[60px] firstudbtn">
+                              <button className="relative top-[25px] left-[-15px]" style={{overflow:'hidden', textWrap:'nowrap'}}>Check it Out</button>
+                        </a>
                     </div>
                      </SlideIn>
 
@@ -208,7 +217,10 @@ const Portfolio =()=>{
 
                      <div className="minofmeintg flex gap-[160px] w-[45%] relative left-[80px] p-5 rounded-[50px]" >
                         <h3 className="relative top-[1px] left-[20px] w-[70%]">This is Devrift a Website/Wep app development interprise which i the  Co-Founder  </h3>
-                        <div className="bg-black text-white p-[10px] rounded-4xl px-[60px] firstudbtn"><button className="relative top-[15px] left-[-15px]" style={{overflow:'hidden', textWrap:'nowrap'}}>Check it Out</button></div>
+                        <a href="https://devrift-interprise.vercel.app" target="_blank" rel="noopener noreferrer"className="bg-black text-white p-[10px] rounded-4xl px-[60px] firstudbtn">
+                        <button className="relative top-[15px] left-[-15px]" style={{overflow:'hidden', textWrap:'nowrap'}}>Check it Out</button>
+                        </a>
+                     
                     </div>
 
                      </SlideIn>
@@ -273,11 +285,35 @@ const Portfolio =()=>{
 
                     </div>
                     <div className="flex justify-center gap-[10px]" style={{textWrap:"nowrap"}}>
-                        <p className="p-[20px]">Linked In</p>
-                        <p className="p-[20px]">X (twiter)</p>
+                        <a href="https://www.linkedin.com/in/mathias-onyebuchi-3556802a3?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" rel="noopener noreferrer" >
+                        <p className="p-[20px] mifhhrtnot" >Linked In</p>
+
+                        </a>
+                        <a href="https://x.com/mathiasonyebuc1?s=21&t=ZT2pp35h-vscuEFwYeHSsw" target="_blank" rel="noopener noreferrer">
+                             <p className="p-[20px] mifhhrtnot" >X (twiter)</p>
+                        </a>
+                       
+                        <a href="https://www.instagram.com/chriscodesdaily?igsh=anVrMnp3emp4NXQ2&utm_source=qr" target="_blank" rel="noopener noreferrer">
                         <p className="p-[20px]">Instgram</p>
+
+                        </a>
+                        <a href="https://wa.me/2349049661994" target="_blank" rel="noopener noreferrer">
                         <p className="p-[20px]">Whatsapp</p>
+
+                        </a>
                     </div>
+                  
+                </div>
+                <div className="flex justify-center my-[50px] gap-[20px]">
+                    <a href="https://x.com/mathiasonyebuc1?s=21&t=ZT2pp35h-vscuEFwYeHSsw" target="_blank" rel="noopener noreferrer"  className="p-[20px] mifhhrtno p[10px] rounded-2xl bg-gray-200" >
+                         <p>X (twiter)</p>
+                    </a>
+                    <a href="https://www.linkedin.com/in/mathias-onyebuchi-3556802a3?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" rel="noopener noreferrer" className="p-[20px] mifhhrtno p[10px] rounded-2xl bg-gray-200 ">
+                                 <p  >Linked In</p>
+                    </a>
+                     
+
+                       
                 </div>
                 
                
