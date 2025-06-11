@@ -259,7 +259,7 @@ const Portfolio =()=>{
                 </div>
 
 
-                <div className="minviebe w-[60%] relative left-[20%] rounded-[40px] bg-gray-200 text-red-500" >
+                <div className="minviebe w-[60%] relative left-[20%] rounded-[40px] bg-gray-200 text-red-500 my-[40px]" >
                     <div>
                     {/* <FontAwesomeIcon icon={}/> */}
                     <div>
@@ -280,73 +280,7 @@ const Portfolio =()=>{
                     </div>
                 </div>
                 
-                <div className="my-[60px]">
-                    <footer className=" beforethemfoots">
-                        
-
-                        <img src={flower} alt="" className="footer" />
-                        <img src={Beast} alt="" className="footer" />
-                        <img src={pinkflower} alt="" className="footer" />
-                           <img src={TwindLogo} alt="" />
-                        <img src={flower2} alt="" className="footer" />
-                        <img src={Beast} alt="" className="footer" />
-                        <img src={pinkflower} alt="" className="footer" /><img src={flower2} alt="" className="footer" />
-                        <img src={pinkflower} alt="" className="footer" />
-                       <img src={Beast} alt=""  className="footer"/>
-                      
-                          <img src={TwindLogo} alt="" />
-                        <img src={Beast} alt="" className="footer" />
-                        <img src={pinkflower} alt="" className="footer" />
-                           <img src={TwindLogo} alt="" />
-                        <img src={flower2} alt=""  className="footer"/>
-                      <img src={Beast} alt="" className="footer" />
-                        <img src={TwindLogo} alt="" />
-                        <img src={flower2} alt="" />
-                        <img src={pinkflower} alt="" className="footer" />
-                       <img src={Beast} alt="" className="footer" />
-                          <img src={flower} alt=""  className="footer"/>
-
-                        <img src={flower2} alt=""  className="footer"/>
-                        <img src={pinkflower} alt="" className="footer" />
-                           <img src={flower} alt="" className="footer" />
-                        <img src={flower2} alt=""  className="footer" />
-                        
-                          <div className="text-[30px] thisimhs" style={{fontFamily: 'Italiana, serif'}}>
-                    Your Limit Is Your Imagination
-                        </div>
-                        <img src={flower2} alt="" className="footer" />
-                        <img src={TwindLogo} alt="" />
-                        <img src={pinkflower} alt=""  className="footer"/>
-
-                       
-
-                        <img src={TwindLogo} alt="" />
-                        <img src={Beast} alt="" className="footer" />
-                        <img src={pinkflower} alt=""  className="footer"/>
-                           <img src={flower} alt="" className="footer" />
-                        <img src={flower2} alt="" className="footer" />
-                       <img src={Beast} alt="" className="footer" />
-                        <img src={pinkflower} alt="" className="footer" /><img src={flower2} alt="" className="footer" />
-                        <img src={TwindLogo} alt="" />
-                        <img src={pinkflower} alt="" className="footer" />
-                       
-                        
-
-                        <img src={flower} alt="" className="footer" />
-                        <img src={TwindLogo} alt="" />
-                        <img src={pinkflower} alt="" className="footer" />
-                           <img src={TwindLogo} alt="" />
-                        <img src={flower2} alt="" className="footer" />
-                        <img src={Beast} alt="" className="footer" />
-                        <img src={TwindLogo} alt="" /><img src={flower2} alt="" className="footer" />
-                        <img src={pinkflower} alt=""  className="footer"/>
-                       <img src={Beast} alt="" className="footer" />
-
-                         <img src={pinkflower} alt="" className="footer" />
-                        {/* <img src={pinkflower} alt="" /> */}
-                        
-                    </footer>
-                </div>
+               
               
 
         </div>
