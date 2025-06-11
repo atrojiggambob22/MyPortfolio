@@ -260,7 +260,7 @@ const Portfolio =()=>{
                              <p className="w-[60%] sobunder">Creativity has always been my escape -first through drawing, now through designe and developement. I find joy through discovering hidden food ,spots and mobile gaming
                            </p>
 
-                           <p className="w-[30%] sobunder ">I Love new Placesb,Peaple,New conversation and the stories they bring
+                           <p className="w-[30%] sobunder ">I Love new Places,People,New conversation and the stories they bring
 
                            </p>
                         </div>
