@@ -249,7 +249,7 @@ const Portfolio =()=>{
                             <p className="my-[20px]">I'm a passionate Web Developer from Enugu State, Nigeria. I was Born in Bayelsa State, from an early stage i knew how phones worked and operated them really well many were facinted by my skill.
                            </p>
 
-                           <p className="my-[20px]"> Speaking of Skills i had a huge obsession with device spec's but little did i know what i was missing out on. 'Progrmming' this is a gateway to express how you feel and bringing you dreams and Ideas to reality 
+                           <p className="my-[20px]"> Speaking of Skills i had a huge obsession with device spec's but little did i know what i was missing out on. 'Programming' this is a gateway to express how you feel and bringing you dreams and Ideas to reality 
 
                            </p>
                         </div>
@@ -260,7 +260,7 @@ const Portfolio =()=>{
                              <p className="w-[60%] sobunder">Creativity has always been my escape -first through drawing, now through designe and developement. I find joy through discovering hidden food ,spots and mobile gaming
                            </p>
 
-                           <p className="w-[30%] sobunder ">I Love new places,Peaople,new conversation and the stories they bring
+                           <p className="w-[30%] sobunder ">I Love new Placesb,Peaple,New conversation and the stories they bring
 
                            </p>
                         </div>
