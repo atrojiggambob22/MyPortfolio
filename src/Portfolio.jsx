@@ -23,15 +23,10 @@ import Csslogo from "../public/Images/cssp.png"
 import HtmlLogo from "../public/Images/htmlp.png"
 import TwindLogo from "../public/Images/twind.png"
 import BStrap from "../public/Images/bstrap.png"
-import LinkedIn from "../public/Images/linkedin.png"
-<link
-  rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
-/>
+// import LinkedIn from "../public/Images/linkedin.png"
+
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faInstagram, faWhatsapp, faTwitter } from '@fortawesome/free-brands-svg-icons';
-import { link } from "framer-motion/client";
 // import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 // import FlipIn from "../FlipIn"
 const Portfolio =()=>{
