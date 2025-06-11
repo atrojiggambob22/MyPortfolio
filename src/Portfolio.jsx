@@ -23,7 +23,16 @@ import Csslogo from "../public/Images/cssp.png"
 import HtmlLogo from "../public/Images/htmlp.png"
 import TwindLogo from "../public/Images/twind.png"
 import BStrap from "../public/Images/bstrap.png"
-
+import LinkedIn from "../public/Images/linkedin.png"
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+/>
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebook, faInstagram, faWhatsapp, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { link } from "framer-motion/client";
+// import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 // import FlipIn from "../FlipIn"
 const Portfolio =()=>{
     return(
@@ -55,12 +64,12 @@ const Portfolio =()=>{
                      <FadeInSection delay={0.5}>
 
                 <div className="text-[60px] firstvhaimsn">
-                    <h3> A <span style={{fontFamily: 'Italiana, serif', fontSize:'85px' }}>Software</span>  and <br /> <span style={{fontFamily: 'Italiana, serif', fontSize:'85px'}}>Front-End </span>  developer <br />you can <span style={{fontFamily: 'Italiana, serif',fontSize:'85px' }}>Rely</span>  on</h3>
+                    <h3> <span style={{fontFamily: 'Italiana, serif', fontSize:'85px' }}>Software</span>  and <br /> <span style={{fontFamily: 'Italiana, serif', fontSize:'60px'}}>Front-End </span>  developer <br />you can <span style={{fontFamily: 'Italiana, serif',fontSize:'85px' }}>Rely</span>  on</h3>
                 </div>
                 </FadeInSection>
                 <FadeInSection delay={0.9}>
                     <div className="w-[70%] relative left-[180px] firppdonf">
-                    <p>Simplicity is my super power. I turn complex Ideas into experiences users love  and investors  trust i help. i help Upcomming Buisness's ,Founder, Saas  craft story-driven brands and products.</p>
+                    <p>Simplicity is my super power. I turn complex Ideas into experiences users love  and investors  trust <span className="mingodrtheb" style={{}}>I help. I help Upcomming Buisness's ,Founder, Saas  craft story-driven brands and products.</span> </p>
                 </div>
                 </FadeInSection>
                 </div>
@@ -216,7 +225,7 @@ const Portfolio =()=>{
                     </div>
 
                      <div className="minofmeintg flex gap-[160px] w-[45%] relative left-[80px] p-5 rounded-[50px]" >
-                        <h3 className="relative top-[1px] left-[20px] w-[70%]">This is Devrift a Website/Wep app development interprise which i the  Co-Founder  </h3>
+                        <h3 className="relative top-[1px] left-[20px] w-[70%]">This is Devrift a Website/Wep app development interprise which I  am the  Co-Founder  </h3>
                         <a href="https://devrift-interprise.vercel.app" target="_blank" rel="noopener noreferrer"className="bg-black text-white p-[10px] rounded-4xl px-[60px] firstudbtn">
                         <button className="relative top-[15px] left-[-15px]" style={{overflow:'hidden', textWrap:'nowrap'}}>Check it Out</button>
                         </a>
@@ -246,10 +255,10 @@ const Portfolio =()=>{
                             <img src={bayelsa} alt="" className="miningforme4" />
                         </div>
                         <div className="w-[50%] parentofthemp"> 
-                            <p className="my-[20px]">I'm a passionate Web Developer from Enugu State, Nigeria. I was Born in Bayelsa State, from an early stage i knew how phones worked and operated them really well many were facinted by my skill.
+                            <p className="my-[20px]">I'm a passionate Web Developer from Enugu State, Nigeria. I was Born in Bayelsa State, from an early stage I knew how phones worked and operated them really well many were facinted by my skill.
                            </p>
 
-                           <p className="my-[20px]"> Speaking of Skills i had a huge obsession with device spec's but little did i know what i was missing out on. 'Programming' this is a gateway to express how you feel and bringing you dreams and Ideas to reality 
+                           <p className="my-[20px]"> Speaking of Skills I had a huge obsession with device spec's but little did I know what I was missing out on. 'Programming' this is a gateway to express how you feel and bringing you dreams and Ideas to reality 
 
                            </p>
                         </div>
@@ -285,31 +294,39 @@ const Portfolio =()=>{
 
                     </div>
                     <div className="flex justify-center gap-[10px]" style={{textWrap:"nowrap"}}>
-                        <a href="https://www.linkedin.com/in/mathias-onyebuchi-3556802a3?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" rel="noopener noreferrer" >
+                        <a href="https://www.linkedin.com/in/mathias-onyebuchi-3556802a3?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" rel="noopener noreferrer" style={{display:'flex'}}>
+                     <FontAwesomeIcon icon={faLinkedin}  className="thenfiigicon"/>
                         <p className="p-[20px] mifhhrtnot" >Linked In</p>
 
                         </a>
-                        <a href="https://x.com/mathiasonyebuc1?s=21&t=ZT2pp35h-vscuEFwYeHSsw" target="_blank" rel="noopener noreferrer">
+                        <a href="https://x.com/mathiasonyebuc1?s=21&t=ZT2pp35h-vscuEFwYeHSsw" target="_blank" rel="noopener noreferrer" style={{display:'flex'}}>
+                        <FontAwesomeIcon icon={faTwitter} className="thenfiigicon"/>
                              <p className="p-[20px] mifhhrtnot" >X (twiter)</p>
                         </a>
                        
-                        <a href="https://www.instagram.com/chriscodesdaily?igsh=anVrMnp3emp4NXQ2&utm_source=qr" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.instagram.com/chriscodesdaily?igsh=anVrMnp3emp4NXQ2&utm_source=qr" target="_blank" rel="noopener noreferrer" className="" style={{display:'flex'}}>
+                        <FontAwesomeIcon icon={faInstagram} className="thenfiigicon"/>
                         <p className="p-[20px]">Instagram</p>
 
                         </a>
-                        <a href="https://wa.me/2349049661994" target="_blank" rel="noopener noreferrer">
-                        <p className="p-[20px]">Whatsapp</p>
+                        <a href="https://wa.me/2349049661994" target="_blank" rel="noopener noreferrer" style={{display:'flex'}}>
+                        <FontAwesomeIcon icon={faWhatsapp} className="thenfiigicon"/>
+                        <p className="p-[20px]" style={{display:"flex"}}>
+                            Whatsapp</p>
 
                         </a>
                     </div>
                   
                 </div>
                 <div className="flex justify-center my-[50px] gap-[20px]">
-                    <a href="https://x.com/mathiasonyebuc1?s=21&t=ZT2pp35h-vscuEFwYeHSsw" target="_blank" rel="noopener noreferrer"  className="p-[20px] mifhhrtno p[10px] rounded-2xl bg-gray-200" >
+                    <a href="https://x.com/mathiasonyebuc1?s=21&t=ZT2pp35h-vscuEFwYeHSsw" target="_blank" rel="noopener noreferrer"  className="p-[20px] mifhhrtno rounded-2xl bg-gray-200" >
+                    <FontAwesomeIcon icon={faTwitter} className="thnfminiffi" />
                          <p>X (twitter)</p>
                     </a>
-                    <a href="https://www.linkedin.com/in/mathias-onyebuchi-3556802a3?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" rel="noopener noreferrer" className="p-[20px] mifhhrtno p[10px] rounded-2xl bg-gray-200 ">
-                                 <p  >Linked In</p>
+
+                   <a href="https://www.linkedin.com/in/mathias-onyebuchi-3556802a3?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" rel="noopener noreferrer"  className="p-[20px] mifhhrtno p[10px] rounded-2xl bg-gray-200"  >
+                    <FontAwesomeIcon icon={faLinkedin} className="thnfminiffi" />
+                         <p>Linked In</p>
                     </a>
                      
 

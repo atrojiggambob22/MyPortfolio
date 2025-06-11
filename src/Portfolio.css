@@ -238,6 +238,12 @@ footer img{
 .mifhhrtno{
     display: none;
 }
+/* This style is for thhe icons in the get in touch section */
+.thenfiigicon{
+    position: relative;
+    top: 22px;
+    left: 15px;
+}
 .footer:hover{
     animation: spin 1s linear infinite;
 }
@@ -251,6 +257,7 @@ footer img{
 .themigweimgds:hover{
     animation: spin 1s linear infinite;
 }
+
 /* This is a style for to make an element animation name called spin to rotate from it's current deg to 360deg */
 @keyframes spin{
     from{transform: rotate(-23.5deg); }
@@ -261,14 +268,16 @@ footer img{
         /* color: teal; */
        
     }
-   
+   .mingodrtheb{
+    display: none;
+   }
     /* this style is for the paragraph  */
     .firstvhaimsn{
         font-size: 30px !important;
     }
     .firstvhaimsn span{
         /* color:rgb(216, 153, 18); */
-        font-size:50px !important;
+        font-size:45px !important;
         font-weight: 900 !important;
     }
     /* This style is for the first p tag */
@@ -286,6 +295,7 @@ footer img{
     }
     .firppdonf p{
         width: 90% !important;
+        /* display: none; */
     }
     
     .babeofthemeall{
@@ -442,6 +452,14 @@ footer img{
         display: none;
     }
     .mifhhrtno{
-        display: block;
+        display: flex;
+        gap: 10px;
+       
+        /* display: block; */
+    }
+
+    .thnfminiffi{
+         position: relative;
+        top: 5px;
     }
 }
