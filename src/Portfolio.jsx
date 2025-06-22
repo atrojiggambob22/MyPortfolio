@@ -50,7 +50,8 @@ const Portfolio =()=>{
                 {/* <img src={flower} alt=""  className="themigwei" /> */}
 
                 </div>
-                <div className="" style={{overflow:'hidden'}}>
+                <div className="" style={{marginBottom:"90px", 
+                    paddingBottom:'20px'}} >
                     <BounceIn >
                      <div className="py-[20px] ">
                      <h3>Hi, I'm Mathias</h3>
@@ -62,7 +63,7 @@ const Portfolio =()=>{
                     <h3> <span style={{fontFamily: 'Italiana, serif', fontSize:'85px' }}>Software</span>  and <br /> <span style={{fontFamily: 'Italiana, serif', fontSize:'60px'}}>Front-End </span>  developer <br />you can <span style={{fontFamily: 'Italiana, serif',fontSize:'85px' }}>Rely</span>  on</h3>
                 </div>
                 </FadeInSection>
-                <FadeInSection delay={0.9}>
+                <FadeInSection delay={0.4}>
                     <div className="w-[70%] relative left-[180px] firppdonf">
                     <p>Simplicity is my super power. I turn complex Ideas into experiences users love  and investors  trust <span className="mingodrtheb" style={{}}>I help. I help Upcomming Buisness's ,Founder, Saas  craft story-driven brands and products.</span> </p>
                 </div>
