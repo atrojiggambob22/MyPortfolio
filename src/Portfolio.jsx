@@ -63,9 +63,9 @@ const Portfolio =()=>{
                 </div>
                 </FadeInSection>
                 <FadeInSection delay={0.4}>
-                    <div className="w-[70%] relative left-[180px] firppdonf">
+                    {/* <div className="w-[70%] relative left-[180px] firppdonf">
                     <p>Simplicity is my super power. I turn complex Ideas into experiences users love  and investors  trust <span className="mingodrtheb" style={{}}>I help. I help Upcomming Buisness's ,Founder, Saas  craft story-driven brands and products.</span> </p>
-                </div>
+                </div> */}
                 </FadeInSection>
                 </div>
                
