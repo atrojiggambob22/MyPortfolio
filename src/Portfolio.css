@@ -263,11 +263,13 @@ footer img{
     from{transform: rotate(-23.5deg); }
     to{ tranfrom:rotate(360deg);}
 }
+
 @media  (min-width:200px) and (max-width:800px){
     nav{
         /* color: teal; */
        
     }
+
    .mingodrtheb{
     display: none;
    }
@@ -275,6 +277,7 @@ footer img{
     .firstvhaimsn{
         font-size: 30px !important;
     }
+
     .firstvhaimsn span{
         /* color:rgb(216, 153, 18); */
         font-size:45px !important;
@@ -284,15 +287,18 @@ footer img{
     .firsdpdppp{
         width: 90% !important;
     }
+
     .middleman{
         left: 10px;
     }
+
     /* This style is for the first p tag  */
     .firppdonf{
         margin-top: 20px;
         width: 100%;
         left:10px !important;
     }
+
     .firppdonf p{
         width: 90% !important;
         /* display: none; */
@@ -325,9 +331,11 @@ footer img{
         width:80% !important;
         left: 25px !important;
     }
+
     .minofmeintg h3{
         width: 90%;
     }
+
     /* this style is for the div holdign the button below it */
     .firstudbtn{
       padding:10px !important;
@@ -336,15 +344,18 @@ footer img{
       position: relative;
       left:60px;
     }
+
     .firstudbtn button{
         top: 0 !important;
         left: 25px !important;
     }
+
     .babafirspac{
         /* background-color: gray; */
         width:100% !important;
         /* margin-right: 0px !important; */
     }
+
     /* Styling the images side */
     .babafirspac33{
         position:  relative !important;

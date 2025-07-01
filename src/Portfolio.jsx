@@ -36,9 +36,9 @@ const Portfolio =()=>{
         <div className="bg-gray-100">
             <div >
                 <nav className="flex flex-row  text-center justify-center gap-20 my-[20px]">
-                    <div style={{fontWeight:"600"}}>Works</div>
+                    {/* <div style={{fontWeight:"600"}}>Works</div>
                     <div style={{fontWeight:"600"}}>Mathias</div>
-                    <div style={{fontWeight:"600"}}>Garden</div>
+                    <div style={{fontWeight:"600"}}>Garden</div> */}
                 </nav>
                 
                <div className="text-center justify-center gap-20 py-[30px] flex">
