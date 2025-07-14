@@ -28,7 +28,7 @@
 
 .Projects img{
     margin: 20px;
-    width:60%;
+    min-width:60%;
     border:8px solid rgb(255, 255, 255);
     border-radius: 40px;
     max-height:40vh;

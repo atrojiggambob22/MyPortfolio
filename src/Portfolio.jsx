@@ -31,10 +31,11 @@ import { faFacebook, faInstagram, faWhatsapp, faTwitter } from '@fortawesome/fre
 const Portfolio =()=>{
     return(
         <>  
+        
         <ScrollIndicator/>
        
         <div className="bg-gray-100">
-            <div >
+            <div>
                 <nav className="flex flex-row  text-center justify-center gap-20 my-[20px]">
                     <div style={{fontWeight:"600"}}>Works</div>
                     <div style={{fontWeight:"600"}}>Mathias</div>
