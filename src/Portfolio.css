@@ -28,7 +28,7 @@
 
 .Projects img{
     margin: 20px;
-    min-width:60%;
+    width:60%;
     border:8px solid rgb(255, 255, 255);
     border-radius: 40px;
     max-height:40vh;
@@ -318,7 +318,7 @@ footer img{
 
     /* This style is for the chrisbank side section */
     .Whythem22{
-        left:-20px !important;
+        /* left:-20px !important; */
     }
     .flowerighs{
         
