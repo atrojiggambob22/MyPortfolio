@@ -127,7 +127,7 @@ const Portfolio =()=>{
                    
                      <SlideIn from="left" delay={0.6}>
                             <div className="flex babeofthemeall">
-                        <div className="babafirspac babafirspac33 " style={{width:"155%"}}>
+                        <div className="babafirspac babafirspac33 " style={{}}>
                             <div className="firstspac">
                             <img src={space1} alt="" className="firimfmfnspa2"   />
                              <img src={space2} alt="" className="firimfmfnspa" />
@@ -148,18 +148,19 @@ const Portfolio =()=>{
                         </div>
                         
                     </div>
-                     <div className="minofmeintg minofmeintg3332 flex gap-[160px] w-[45%] relative left-[60px] p-5 rounded-[50px]" >
+
+                     {/* <div className="minofmeintg minofmeintg3332 flex gap-[160px] w-[45%] relative left-[60px] p-5 rounded-[50px]" >
                         <h3 className="relative top-[1px] left-[20px] w-[70%]">This is a Real-Estate and Property website where you can scout and check for the best homes Wealth-Space Properties have </h3>
                         <a href="https://wealthspace-properties.vercel.app" target="_blank" rel="noopener noreferrer"className="bg-black text-white p-[10px] rounded-4xl px-[60px] firstudbtn">
                               <button className="relative top-[25px] left-[-15px]" style={{overflow:'hidden', textWrap:'nowrap'}}>Check it Out</button>
                         </a>
                       
-                    </div>
+                    </div> */}
                      </SlideIn>
                     
                     
                     <SlideIn from="left" delay={0.8}>
-                            <div className="flex babeofthemeall">
+                            {/* <div className="flex babeofthemeall">
                         <div className="babafirspac" style={{width:"220%"}}>
                             <div className="firstspac w-[90%]">
                             <img src={chrisban1} alt="" className="firimfmfnspa2 "   />
@@ -178,23 +179,23 @@ const Portfolio =()=>{
                         <div className=" w-[25%] flowerighs">
                 <img src={HtmlLogo} alt="" className=" themigweimgds w-[10%]" />
 
-                         {/* <img src={Beast} alt=""className="themigweimgds" style={{border:"none", width:''}} /> */}
+                        
                         </div>
                         </div>
                         
-                    </div>
-                     <div className="minofmeintg minofmeintg3332 flex gap-[160px] w-[45%] relative left-[40px] p-5 rounded-[50px]" >
+                    </div> */}
+                     {/* <div className="minofmeintg minofmeintg3332 flex gap-[160px] max-w-[45%] relative left-[40px] p-5 rounded-[50px]" >
                          <h3 className="relative top-[1px] left-[20px] w-[70%]">This is a Landing Page for a bank and Perks that they offer including the admin dashboard and the user dashbaord </h3>
                         <a href="https://chrisbank.vercel.app" target="_blank" rel="noopener noreferrer"className="bg-black text-white p-[10px] rounded-4xl px-[60px] firstudbtn">
                               <button className="relative top-[25px] left-[-15px]" style={{overflow:'hidden', textWrap:'nowrap'}}>Check it Out</button>
                         </a>
-                    </div>
+                    </div> */}
                      </SlideIn>
 
                     <SlideIn from="right" delay={0.10}>
 
                         
-                    <div className="flex babeofthemeall">
+                    {/* <div className="flex babeofthemeall">
 
                         <div className="Whythem">
                             <div className="w-[25%] flowerighs" >
@@ -218,15 +219,15 @@ const Portfolio =()=>{
 
                         
                         
-                    </div>
+                    </div> */}
 
-                     <div className="minofmeintg flex gap-[160px] w-[45%] relative left-[80px] p-5 rounded-[50px]" >
+                     {/* <div className="minofmeintg flex gap-[160px] w-[45%] relative left-[80px] p-5 rounded-[50px]" >
                         <h3 className="relative top-[1px] left-[20px] w-[70%]">This is Devrift a Website/Wep app development interprise which I  am the  Co-Founder  </h3>
                         <a href="https://devrift-interprise.vercel.app" target="_blank" rel="noopener noreferrer"className="bg-black text-white p-[10px] rounded-4xl px-[60px] firstudbtn">
                         <button className="relative top-[15px] left-[-15px]" style={{overflow:'hidden', textWrap:'nowrap'}}>Check it Out</button>
                         </a>
                      
-                    </div>
+                    </div> */}
 
                      </SlideIn>
 
