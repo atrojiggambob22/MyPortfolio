@@ -26,20 +26,15 @@
     box-shadow: 0 4px 15px black;
 }
 
-.Projects img{
-    margin: 20px;
-    max-width:60%;
-    border:4px solid rgb(0, 0, 0);
-    border-radius: 40px;
-    max-height:40vh;
-}
+
 .babeofthemeall{
-    margin: 90px auto ;
+    margin: 60px auto ;
+    /* padding:40px; */
 }
 .firstspac{
     display: flex;
     /* background-color: red; */
-    padding:30px;
+    padding: 40px 80px;
     /* width:50%; */
     border-radius: 40px;
     background-color: rgba(181, 181, 181, 0.085);
@@ -74,7 +69,7 @@
 .imgscrol img{
     width: 80% !important;
     margin: 10px;
-    vertical-align: middle;
+    /* vertical-align: middle; */
 }
 /* @keyframes scroll-left {
   from {
@@ -87,15 +82,15 @@
 
 .middleman{
    position: relative;
-   left: 300px;
+   right:-20%;
+   /* left: 300px; */
 }
 /* Styling for the first image in the space category which is the space1 img */
 
-.babafirspac{
-    /* margin: 40px 20%; */
-    /* margin-right: 140%; */
-    /* width:60%; */
-    margin-right: 20px;
+.babafirspac{    
+    margin: 10px;
+    max-width: 100%;
+    
 }
 .firimfmfnspa{
    
@@ -108,48 +103,13 @@
 
 .minsidespace1{
     border-radius: 30px;
-    /* background-color: rgba(181, 181, 181, 0.065); */
-  
-    /* height:25vh; */
-    /* width:20%; */
-    /* color: black; */
-    /* margin-bottom: 10px;
-    position: relative;
-    overflow: hidden; */
-   
 }
 /* This is for the flower img */
-.flowerighs{
-    border-radius:40px;
-    background-color: rgb(255, 255, 255);
-     margin-bottom: 40px;
+.Whythem{
+  position: relative;
+  top:45px;
 }
-.flowerighs img{
-    position: relative;
-    left:20px;
-     margin: 30px 20px;
-   
-}
-.flowerighs3{
-     border-radius:40px;
-    background-color:lightgray;
-     margin-bottom: 40px;
-}
-.flowerighs3 img{
-    position: relative;
-    left:20px;
-     margin: 30px 20px;
-}
-.flowerighs2{
-     border-radius:40px;
-    background-color: rgba(247, 247, 166, 0.306);
-     margin-bottom: 40px;
-}
-.flowerighs2 img{
-    position: relative;
-    left:20px;
-     margin: 30px 20px;
-}
+
 
 .kings-ofmin{
     display: flex;
@@ -208,7 +168,7 @@
 .minviebe:hover{
     background-color: rgba(255, 0, 0, 0.825);
    color: white;
-    /* box-shadow: 0 5px 15px black; */
+    
 }
 
 .miningforme4:hover{
@@ -216,11 +176,11 @@
 }
 /* All these are part of thhe footer */
 .thisimhs{
-    /* font-size: 30px; */
+    
     width: 180px;
-    /* margin: 0 40px; */
+  
     text-align: center;
-    /* text-wrap:nowrap ; */
+   
     
 }
 .beforethemfoots{
@@ -247,28 +207,9 @@ footer img{
 .footer:hover{
     animation: spin 1s linear infinite;
 }
-/* .minsidespace1 p{
-    overflow-y:hidden;
-    font-size:15px;
-} */
-.themigwei:hover{
-    animation: spin 1s linear infinite;
-}
-.themigweimgds:hover{
-    animation: spin 1s linear infinite;
-}
-
-/* This is a style for to make an element animation name called spin to rotate from it's current deg to 360deg */
-@keyframes spin{
-    from{transform: rotate(-23.5deg); }
-    to{ tranfrom:rotate(360deg);}
-}
 
 @media  (min-width:200px) and (max-width:800px){
-    nav{
-        /* color: teal; */
-       
-    }
+    
 
    .mingodrtheb{
     display: none;
@@ -322,7 +263,7 @@ footer img{
     }
     .flowerighs{
         
-        width: 40% !important;
+        max-width: 40% !important;
     }
 
     /* this style is for the section below flowerighs */
@@ -349,10 +290,10 @@ footer img{
         top: 0 !important;
         left: 25px !important;
     }
-
+   
     .babafirspac{
         /* background-color: gray; */
-        width:100% !important;
+        max-width:100% !important;
         /* margin-right: 0px !important; */
     }
 

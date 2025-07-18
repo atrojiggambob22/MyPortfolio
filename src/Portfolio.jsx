@@ -113,50 +113,171 @@ const Portfolio =()=>{
             </FadeInSection>
 
             </div>
-                <div className="middleman mb-[90px]">
-                    <FadeInSection>
 
                     <div>
+
+                    <div>
+                     <FadeInSection>
+
+                    <div className="relative left-[20%]">
                         <h3 className="py-5 text-[30px]">Tiny fraction of my work</h3>
                         <p className="flex justify-start w-[40%]    firsdpdppp">Teaming with founders and  buisness owner's to propel their next product through developing website's  that are  both functional and great looking.</p>
                     </div>
-                    </FadeInSection>
-                    
-                    <div className="Projects">
 
-                   
+                    </FadeInSection>
+
                      <SlideIn from="left" delay={0.6}>
-                            <div className="flex babeofthemeall">
-                        <div className="babafirspac babafirspac33 " style={{}}>
+
+                    <div className="flex relative left-[20%] overflow-hidden gap-[20px]">
+
+                     <div className=" babeofthemeall">
+                        <div className="babafirspac" style={{}}>
                             <div className="firstspac">
-                            <img src={space1} alt="" className="firimfmfnspa2"   />
-                             <img src={space2} alt="" className="firimfmfnspa" />
+                            <img src={space1} alt="" className="firimfmfnspa2 rounded-[40px] border-4 border-black"   />
+
+                             <img src={space2} alt="" className="firimfmfnspa rounded-[40px] border-4 border-black" />
                             </div>
                             
                            
                         </div>
 
-                        <div className="Whythem">
-                            <div className="w-[25%] flowerighs" >
+                       
+                    </div>
+                     <div className="Whythem ">
+                        <div className=" flowerighs  my-[50px]" >
                               
-                                <img src={flower} alt="" style={{border:"none"}} className="themigweimgds"/>
+                                <img src={flower} alt="" style={{border:"none", width:'20%'}} className=" inline-block bg-gray-200 p-[30px] rounded-[30px] "/>
                         </div>
 
-                        <div className="w-[25%] flowerighs">
-                         <img src={Beast} alt=""className="themigweimgds" style={{border:"none", width:''}} />
+                        <div className=" flowerighs my-[50px]  ">
+
+                         <img src={Beast} alt=""className=" bg-gray-200 p-[30px] rounded-[30px]" style={{border:"none", width:'20%'}} />
                         </div>
                         </div>
                         
                     </div>
-
-                     {/* <div className="minofmeintg minofmeintg3332 flex gap-[160px] w-[45%] relative left-[60px] p-5 rounded-[50px]" >
+                     <div className="minofmeintg minofmeintg3332 flex gap-[160px] w-[45%] relative left-[23%] p-5 rounded-[50px]" >
                         <h3 className="relative top-[1px] left-[20px] w-[70%]">This is a Real-Estate and Property website where you can scout and check for the best homes Wealth-Space Properties have </h3>
                         <a href="https://wealthspace-properties.vercel.app" target="_blank" rel="noopener noreferrer"className="bg-black text-white p-[10px] rounded-4xl px-[60px] firstudbtn">
                               <button className="relative top-[25px] left-[-15px]" style={{overflow:'hidden', textWrap:'nowrap'}}>Check it Out</button>
                         </a>
                       
-                    </div> */}
-                     </SlideIn>
+                    </div>
+
+                    </SlideIn>
+
+                    </div>
+
+                    <div>
+                     <FadeInSection>
+
+                   
+
+                    </FadeInSection>
+
+                     <SlideIn from="left" delay={0.6}>
+
+                    <div className="flex relative left-[20%] overflow-hidden gap-[20px]">
+
+                     <div className=" babeofthemeall">
+                        <div className="babafirspac" style={{}}>
+                            <div className="firstspac">
+                            <img src={space1} alt="" className="firimfmfnspa2 rounded-[40px] border-4 border-black"   />
+
+                             <img src={space2} alt="" className="firimfmfnspa rounded-[40px] border-4 border-black" />
+                            </div>
+                            
+                           
+                        </div>
+
+                       
+                    </div>
+                     <div className="Whythem ">
+                        <div className=" flowerighs  my-[50px]" >
+                              
+                                <img src={flower} alt="" style={{border:"none", width:'20%'}} className=" inline-block bg-gray-200 p-[30px] rounded-[30px] "/>
+                        </div>
+
+                        <div className=" flowerighs my-[50px]  ">
+
+                         <img src={Beast} alt=""className=" bg-gray-200 p-[30px] rounded-[30px]" style={{border:"none", width:'20%'}} />
+                        </div>
+                        </div>
+                        
+                    </div>
+                     <div className="minofmeintg minofmeintg3332 flex gap-[160px] w-[45%] relative left-[23%] p-5 rounded-[50px]" >
+                        <h3 className="relative top-[1px] left-[20px] w-[70%]">This is a Real-Estate and Property website where you can scout and check for the best homes Wealth-Space Properties have </h3>
+                        <a href="https://wealthspace-properties.vercel.app" target="_blank" rel="noopener noreferrer"className="bg-black text-white p-[10px] rounded-4xl px-[60px] firstudbtn">
+                              <button className="relative top-[25px] left-[-15px]" style={{overflow:'hidden', textWrap:'nowrap'}}>Check it Out</button>
+                        </a>
+                      
+                    </div>
+
+                    </SlideIn>
+
+                    </div>
+
+                    <div>
+                     <FadeInSection>
+
+                   
+
+                    </FadeInSection>
+
+                     <SlideIn from="left" delay={0.6}>
+
+                    <div className="flex relative left-[20%] overflow-hidden gap-[20px]">
+
+                     <div className=" babeofthemeall">
+                        <div className="babafirspac" style={{}}>
+                            <div className="firstspac">
+                            <img src={space1} alt="" className="firimfmfnspa2 rounded-[40px] border-4 border-black"   />
+
+                             <img src={space2} alt="" className="firimfmfnspa rounded-[40px] border-4 border-black" />
+                            </div>
+                            
+                           
+                        </div>
+
+                       
+                    </div>
+                     <div className="Whythem ">
+                        <div className=" flowerighs  my-[50px]" >
+                              
+                                <img src={flower} alt="" style={{border:"none", width:'20%'}} className=" inline-block bg-gray-200 p-[30px] rounded-[30px] "/>
+                        </div>
+
+                        <div className=" flowerighs my-[50px]  ">
+
+                         <img src={Beast} alt=""className=" bg-gray-200 p-[30px] rounded-[30px]" style={{border:"none", width:'20%'}} />
+                        </div>
+                        </div>
+                        
+                    </div>
+                     <div className="minofmeintg minofmeintg3332 flex gap-[160px] w-[45%] relative left-[23%] p-5 rounded-[50px]" >
+                        <h3 className="relative top-[1px] left-[20px] w-[70%]">This is a Real-Estate and Property website where you can scout and check for the best homes Wealth-Space Properties have </h3>
+                        <a href="https://wealthspace-properties.vercel.app" target="_blank" rel="noopener noreferrer"className="bg-black text-white p-[10px] rounded-4xl px-[60px] firstudbtn">
+                              <button className="relative top-[25px] left-[-15px]" style={{overflow:'hidden', textWrap:'nowrap'}}>Check it Out</button>
+                        </a>
+                      
+                    </div>
+
+                    </SlideIn>
+
+                    </div>
+                    </div>
+
+                <div className="middleman mb-[90px]  ">
+                   
+                    
+                    <div className="Projects ">
+
+                   
+                    
+                           
+
+                    
+                     
                     
                     
                     <SlideIn from="left" delay={0.8}>
