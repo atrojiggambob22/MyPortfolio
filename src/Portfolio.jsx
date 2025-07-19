@@ -115,7 +115,7 @@ const Portfolio =()=>{
             </div>
 
                     <div>
-{/* 
+
                     <div>
                      <FadeInSection>
 
@@ -166,7 +166,7 @@ const Portfolio =()=>{
 
                     </SlideIn>
 
-                    </div> */}
+                    </div>
 
                     <div>
                      <FadeInSection>
