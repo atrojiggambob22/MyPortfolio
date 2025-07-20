@@ -175,16 +175,16 @@ const Portfolio =()=>{
 
                     </FadeInSection>
 
-                     <SlideIn from="left" delay={0.6}>
+                     <SlideIn from="right" delay={0.6}>
 
                     <div className="flex relative left-[20%] overflow-hidden gap-[20px]">
 
                      <div className=" babeofthemeall">
                         <div className="babafirspac" style={{}}>
                             <div className="firstspac">
-                            <img src={space1} alt="" className="firimfmfnspa2 rounded-[40px] border-4 border-black"   />
+                            <img src={chrisban1} alt="" className="firimfmfnspa2 rounded-[40px] border-4 border-black"   />
 
-                             <img src={space2} alt="" className="firimfmfnspa rounded-[40px] border-4 border-black" />
+                             <img src={chrisban2} alt="" className="firimfmfnspa rounded-[40px] border-4 border-black" />
                             </div>
                             
                            
@@ -205,9 +205,9 @@ const Portfolio =()=>{
                         </div>
                         
                     </div>
-                     <div className="minofmeintg minofmeintg3332 flex gap-[160px] w-[45%] relative left-[23%] p-5 rounded-[50px]" >
-                        <h3 className="relative top-[1px] left-[20px] w-[70%]">This is a Real-Estate and Property website where you can scout and check for the best homes Wealth-Space Properties have </h3>
-                        <a href="https://wealthspace-properties.vercel.app" target="_blank" rel="noopener noreferrer"className="bg-black text-white p-[10px] rounded-4xl px-[60px] firstudbtn">
+                     <div className="minofmeintg minofmeintg3332 flex gap-[160px] max-w-[45%] relative left-[23%] p-5 rounded-[50px]" >
+                        <h3 className="relative top-[1px] left-[20px] w-[70%]">This is a Landing Page for a bank and Perks that they offer including the admin dashboard and the user dashbaord </h3>
+                        <a href="https://chrisbank.vercel.app" target="_blank" rel="noopener noreferrer"className="bg-black text-white p-[10px] rounded-4xl px-[60px] firstudbtn">
                               <button className="relative top-[25px] left-[-15px]" style={{overflow:'hidden', textWrap:'nowrap'}}>Check it Out</button>
                         </a>
                       
@@ -231,9 +231,9 @@ const Portfolio =()=>{
                      <div className=" babeofthemeall">
                         <div className="babafirspac" style={{}}>
                             <div className="firstspac">
-                            <img src={space1} alt="" className="firimfmfnspa2 rounded-[40px] border-4 border-black"   />
+                            <img src={devrift1} alt="" className="firimfmfnspa2 rounded-[40px] border-4 border-black"   />
 
-                             <img src={space2} alt="" className="firimfmfnspa rounded-[40px] border-4 border-black" />
+                             <img src={devrift2} alt="" className="firimfmfnspa rounded-[40px] border-4 border-black" />
                             </div>
                             
                            
@@ -254,10 +254,10 @@ const Portfolio =()=>{
                         </div>
                         
                     </div>
-                     <div className="minofmeintg minofmeintg3332 flex gap-[160px] w-[45%] relative left-[23%] p-5 rounded-[50px]" >
-                        <h3 className="relative top-[1px] left-[20px] w-[70%]">This is a Real-Estate and Property website where you can scout and check for the best homes Wealth-Space Properties have </h3>
+                     <div className="minofmeintg minofmeintg3332 flex gap-[160px] max-w-[45%] relative left-[23%] p-5 rounded-[50px]" >
+                        <h3 className="relative top-[1px] left-[20px] w-[70%]">This is Devrift a Website/Wep app development interprise which I  am the  Co-Founder</h3>
                         <a href="https://wealthspace-properties.vercel.app" target="_blank" rel="noopener noreferrer"className="bg-black text-white p-[10px] rounded-4xl px-[60px] firstudbtn">
-                              <button className="relative top-[25px] left-[-15px]" style={{overflow:'hidden', textWrap:'nowrap'}}>Check it Out</button>
+                              <button className="relative top-[15px] left-[-15px]" style={{overflow:'hidden', textWrap:'nowrap'}}>Check it Out</button>
                         </a>
                       
                     </div>
