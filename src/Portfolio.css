@@ -1,6 +1,4 @@
 @import "tailwindcss";
-/* @tailwind base;
-@tailwind components; */
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
@@ -25,29 +23,17 @@
 .navbtns:hover{
     box-shadow: 0 4px 15px black;
 }
-
-
-.babeofthemeall{
-    margin: 60px auto ;
-    /* padding:40px; */
-}
 .firstspac{
     display: flex;
-    /* background-color: red; */
     padding: 40px 80px;
-    /* width:50%; */
     border-radius: 40px;
     background-color: rgba(181, 181, 181, 0.085);
 }
 .firimfmfnspa4 img{
     position: relative;
     left: 10px;
-
-    /* width:90%; */
 }
-/* .nabafitsds p{
-     width:60% !important ;
-} */
+
 .firstspac2{
     
     position: relative;
@@ -61,7 +47,7 @@
   /* left:20%; */
 }
 .imgscrol{
-     overflow: hidden;
+overflow: hidden;
     /* display: inline-block; */
   white-space: nowrap;
   animation: scroll-left 20s linear infinite;
@@ -70,44 +56,6 @@
     width: 80% !important;
     margin: 10px;
     /* vertical-align: middle; */
-}
-/* @keyframes scroll-left {
-  from {
-    transform: translateX(0%);
-  }
-  to {
-    transform: translateX(-30%);
-  }
-} */
-
-.middleman{
-   position: relative;
-   right:-20%;
-   /* left: 300px; */
-}
-/* Styling for the first image in the space category which is the space1 img */
-
-.babafirspac{    
-    margin: 10px;
-    max-width: 100%;
-    
-}
-.firimfmfnspa{
-   
-    transform: rotate(30.5deg);
-}
-.firimfmfnspa2{
-
-    transform: rotate(-25.5deg);
-}
-
-.minsidespace1{
-    border-radius: 30px;
-}
-/* This is for the flower img */
-.Whythem{
-  position: relative;
-  top:45px;
 }
 
 
