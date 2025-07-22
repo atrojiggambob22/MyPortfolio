@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useRef} from "react";
 import './Portfolio.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import devrift1 from "../public/Images/devrift1.PNG"
@@ -30,6 +30,19 @@ import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faFacebook, faInstagram, faWhatsapp, faTwitter } from '@fortawesome/free-brands-svg-icons';
 
 const Portfolio =()=>{
+    const workRef = useRef(null);
+
+  const scrollToWorks = () => {
+    workRef.current?.scrollIntoView({ behavior: 'smooth' });
+  };
+
+  const mathiasRef = useRef(null);
+
+  const scrollTomathias = () => {
+    mathiasRef.current?.scrollIntoView({ behavior: 'smooth' });
+  };
+
+
     return(
         <>  
         
@@ -40,9 +53,21 @@ const Portfolio =()=>{
                 <FadeInSection delay={0.1} >
 
                 <nav className="flex flex-row  text-center justify-center gap-20 my-[20px] overflow-y-hidden">
-                    <div style={{fontWeight:"600"}}>Works</div>
-                    <div style={{fontWeight:"600"}}>Mathias</div>
+                    <a  onClick={scrollToWorks}>
+
+                    <div style={{fontWeight:"600"}} >Works</div>
+
+                    </a>
+
+                    
+
                     <div style={{fontWeight:"600"}}>Garden</div>
+                    
+                    <a onClick={scrollTomathias}>
+
+
+                    <div style={{fontWeight:"600"}}>Mathias</div>
+                    </a>
                 </nav>
 
                 </FadeInSection>
@@ -68,11 +93,11 @@ const Portfolio =()=>{
                     
                
 
-            <div className="h-[30vh]" >
+            <div className="h-[35vh] firppdonf11" >
 
                 <FadeInSection delay={0.7}>
 
-            <p className="text-center firppdonf overflow-y-hidden">Simplicity is my super power. I turn complex Ideas into experiences users love <br />and investors  trust <span className="mingodrtheb ghididdd" style={{}}>I help. I help Upcomming Buisness's ,Founder, Saas  craft story-driven brands and products.</span> </p>
+            <p className="text-center firppdonf overflow-y-hidden">Simplicity is my super power. I turn complex Ideas  into experiences <br />users love and investors  trust <span className="mingodrtheb ghididdd" style={{}}>. I help Upcomming Buisness's ,Founder, Saas  craft story-driven brands and products.</span> </p>
 
                 </FadeInSection>
             </div>
@@ -83,7 +108,7 @@ const Portfolio =()=>{
                
            
 
-             <div className="text-center flex justify-center gap-[50px]  relative top-[-150px] Activebtns h-[10vh]">
+             <div className="text-center flex justify-center gap-[50px]  relative top-[-190px] Activebtns h-[10vh]">
                  <FadeInSection delay={0.8}>
 
                 <div className="text-white bg-black p-[5px] px-[120px] rounded-[10px] py-[15px] Hirebtn">
@@ -123,8 +148,8 @@ const Portfolio =()=>{
 
                      
 
-            <div className="my-[70px] text-center  relative top-[-120px]">
-                <div className="relative top-[-20px] my-[90px]">
+            <div className="my-[70px] text-center  relative top-[-120px]" >
+                <div className="relative top-[-20px] my-[90px]" ref={workRef}>
                     <h3 className="font-bold text-[30px]">Some of My Works</h3>
                 </div>
                 
@@ -227,10 +252,10 @@ const Portfolio =()=>{
 
 
 
-                <div className="mx-[140px] mb-[150px] bg-gray-300 p-[50px] rounded-[30px] ogapics">
+                <div className="mx-[140px] mb-[150px] bg-gray-300 p-[50px] rounded-[30px] ogapics" >
                    
 
-                    <div>
+                    <div ref={mathiasRef}>
                         <h2 className="text-[40px]">
                         Behind the Pixels
                         </h2>

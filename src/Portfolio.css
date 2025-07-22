@@ -156,7 +156,10 @@ footer img{
 
 @media  (min-width:200px) and (max-width:800px){
     
-
+    .mingodrtheb{
+        /* width: ; */
+        /* display: none; */
+    }
     /* this style is for the paragraph  */
     .firstvhaimsn{
         font-size: 30px !important;
@@ -177,6 +180,10 @@ footer img{
     }
 
     /* This style is for the first p tag  */
+    .firppdonf11{
+        margin: 10px 50px;
+        overflow: hidden;
+    }
     .firppdonf{
         margin-top: 20px;
         width: 100%;
@@ -280,11 +287,7 @@ footer img{
         overflow: hidden;
         gap:40px !important;
     }
-    .bossofiggdfed img{
-        /* margin: 50px !important; */
-        /* height: 60vh; */
-        /* width: 500%; */
-    }
+    
     .miningforme4{
         display: none;
     }
@@ -365,7 +368,7 @@ footer img{
     }
     .Activebtns{
         gap: 15px;
-        top:-50px;
+        top:-90px;
     }
     .Hirebtn{
         padding: 10px 60px;
@@ -457,5 +460,8 @@ footer img{
        text-wrap: nowrap; 
        padding: 10px 20px;
     }
+    
+}
+@media (min-width:520px) and (max-width:640px){
     
 }
