@@ -68,7 +68,7 @@ const Portfolio =()=>{
                     
                
 
-            <div className="h-[40vh]" >
+            <div className="h-[30vh]" >
 
                 <FadeInSection delay={0.7}>
 
@@ -83,7 +83,7 @@ const Portfolio =()=>{
                
            
 
-             <div className="text-center flex justify-center gap-[50px]  relative top-[-150px] Activebtns">
+             <div className="text-center flex justify-center gap-[50px]  relative top-[-150px] Activebtns h-[10vh]">
                  <FadeInSection delay={0.8}>
 
                 <div className="text-white bg-black p-[5px] px-[120px] rounded-[10px] py-[15px] Hirebtn">

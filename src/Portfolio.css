@@ -57,8 +57,9 @@ overflow: hidden;
     margin: 10px;
     /* vertical-align: middle; */
 }
-
-
+.Activebtns{
+    /* top:300px; */
+}
 .kings-ofmin{
     display: flex;
 }
@@ -156,7 +157,6 @@ footer img{
 @media  (min-width:200px) and (max-width:800px){
     
 
-  
     /* this style is for the paragraph  */
     .firstvhaimsn{
         font-size: 30px !important;
