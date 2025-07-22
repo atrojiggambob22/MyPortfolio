@@ -13,6 +13,7 @@ import me from "../public/Images/me.jpeg"
 // import LoadingCircleSpinner from "./LoadingCircleSpinner"
 import ScrollIndicator from "./ScrollIndicator"
 import FadeInSection from "./FadeInSection";
+import FlipIn from './FlipIn'
 import BounceIn from "./BounceIn";
 import SlideIn from "./SlideIn"
 import flower from "../public/Images/flower.png"
@@ -35,21 +36,21 @@ const Portfolio =()=>{
         <ScrollIndicator/>
        
         <div className="bg-gray-100">
-            <div>
-                <nav className="flex flex-row  text-center justify-center gap-20 my-[20px]">
+            <div className="overflow-y-hidden">
+                <FadeInSection delay={0.1} >
+
+                <nav className="flex flex-row  text-center justify-center gap-20 my-[20px] overflow-y-hidden">
                     <div style={{fontWeight:"600"}}>Works</div>
                     <div style={{fontWeight:"600"}}>Mathias</div>
                     <div style={{fontWeight:"600"}}>Garden</div>
                 </nav>
+
+                </FadeInSection>
+
                 
-               <div className="text-center justify-center gap-20 py-[30px] flex">
+               <div className="text-center justify-center gap-20 py-[30px] flex overflow-y-hidden">
                 {/* <FontAwesome /> */}
                 
-
-                <div className="relative  " >
-                {/* <img src={flower} alt=""  className="themigwei" /> */}
-
-                </div>
                 <div className="" style={{marginBottom:"90px", 
                     paddingBottom:'20px'}} >
                     <BounceIn >
@@ -57,37 +58,51 @@ const Portfolio =()=>{
                      <h3>Hi, I'm Mathias</h3>
                 </div>
                 </BounceIn>
+                
                      <FadeInSection delay={0.5}>
 
-                <div className="text-[60px] firstvhaimsn">
+                <div className="text-[60px] firstvhaimsn mb-[50px] overflow-y-hidden">
                     <h3> <span style={{fontFamily: 'Italiana, serif', fontSize:'85px' }}>Software</span>  and <br /> <span style={{fontFamily: 'Italiana, serif', fontSize:'60px'}}>Front-End </span>  developer <br />you can <span style={{fontFamily: 'Italiana, serif',fontSize:'85px' }}>Rely</span>  on</h3>
                 </div>
                 </FadeInSection>
-                <FadeInSection delay={0.4}>
-                    <div className="w-[70%] relative left-[180px] firppdonf">
-                    <p>Simplicity is my super power. I turn complex Ideas into experiences users love  and investors  trust <span className="mingodrtheb ghididdd" style={{}}>I help. I help Upcomming Buisness's ,Founder, Saas  craft story-driven brands and products.</span> </p>
-                </div>
+                    
+               
+
+            <div className="h-[20vh]" >
+
+                <FadeInSection delay={0.7}>
+
+            <p className="text-center firppdonf overflow-y-hidden">Simplicity is my super power. I turn complex Ideas into experiences users love <br />and investors  trust <span className="mingodrtheb ghididdd" style={{}}>I help. I help Upcomming Buisness's ,Founder, Saas  craft story-driven brands and products.</span> </p>
+
                 </FadeInSection>
-                </div>
-               
-
-                 <div>
-                {/* <img src={flower2} alt="" className="themigwei" /> */}
-
-                </div>
-               </div>
-               
-
-               <div  className="text-center justify-center gap-20 text-white  mb-[140px]">
+            </div>
                 
-                <a href="https://wa.me/2349049661994" target="_blank" rel="noopener noreferrer">
-                <button className="navbtns  p-2 px-[20px]">Chat with me</button>
-                </a>
                 
-
-               </div>
+            </div>
+            </div>
                
+           
+
+             <div className="text-center flex justify-center gap-[50px]  relative top-[-120px] Activebtns">
+                 <FadeInSection delay={0.8}>
+
+                <div className="text-white bg-black p-[5px] px-[120px] rounded-[10px] py-[15px] Hirebtn">
+                    <h1>Hire Me</h1>
+                </div>
+                 </FadeInSection>
+                     <FadeInSection delay={0.9}>
+
+                <div>
+                    <div className="bg-green-200 p-[10px] px-[50px] rounded-[30px] py-[15px] Availablebtn">  <h3 className="text-green-900 font-bold ">Available </h3></div>
+                </div>
+                     </FadeInSection>
+             </div>
+
             </div>  
+
+
+
+
 
             <div className=" babascroll" >
             
@@ -100,29 +115,127 @@ const Portfolio =()=>{
                 <img src={Csslogo} alt="" className="w-[40%]" />
                 <img src={TwindLogo} alt="" className="w-[40%]" />
                 <img src={BStrap} alt="" className="w-[40%]" />
-                {/* We are duplicating for endles loops */}
-                 {/* <img src={Beast} alt="" className="w-[40%]" />
-                <img src={Csslogo} alt="" className="w-[40%]" />
-                <img src={HtmlLogo} alt="" className="w-[40%]" />
-                <img src={TwindLogo} alt="" className="w-[40%]" />
-                <img src={BStrap} alt="" className="w-[40%]" /> */}
-
-                
             </div>
 
             </FadeInSection>
 
             </div>
 
+                     
+
+            <div className="my-[70px] text-center  relative top-[-120px]">
+                <div className="relative top-[-20px] my-[90px]">
+                    <h3 className="font-bold text-[30px]">Some of My Works</h3>
+                </div>
                 
+               <div className="my-[70px]">
+                    <FadeInSection delay={0.5}>
+
+                <div className="grid grid-cols-2 relative left-[20%] bankSet">
+                    
+                    <div className="flex gap-[20px] bg-gray-200 p-[20px] w-[80%] rounded-[30px] CheifeBA">
+                        <img src={chrisban1} alt=""  className="max-w-[60%] h-[80%]  rounded-[50px] relative top-[105px] left-[40px] border-4 border-black"  />
+                        <img src={chrisban2} alt=""  className="max-w-[60%] h-[80%] rounded-[50px] relative top-[10px] left-[40px] border-4 border-black"/>
+                    </div>
+
+                    <div className="relative left-[-20%] grid grid-cols-1 MinSet1">
+                        <div className="bg-gray-200 inline-grid max-w-[25%] rounded-[20px] m-[40px]"><img src={Csslogo} alt="" className="relative top-[20px] MinSet1-sub1 MinSet1-sub"/></div>
+
+                        <div className="bg-gray-200 inline-grid max-w-[25%] rounded-[20px] m-[40px]"><img src={HtmlLogo} alt=""  className="relative top-[20px] MinSet1-sub"/></div>
+                    </div>
+
+                </div>
+                    </FadeInSection>
+                <FadeInSection delay={0.7}>
+
+                <div className="minofmeintg minofmeintg3332 flex gap-[160px] max-w-[45%] relative left-[23%] p-5 rounded-[50px] my-[50px]" >
+                        <h3 className="relative top-[1px] left-[20px] w-[70%] text-start overflow-hidden">This is a Landing Page for a bank and Perks that they offer including the admin dashboard and the user dashbaord <span className="bg-gray-300 p-[5px] rounded-[5px]">HTML</span> <span className="bg-gray-300 p-[5px] rounded-[5px]">CSS</span></h3>
+                        <a href="https://chrisbank.vercel.app" target="_blank" rel="noopener noreferrer"className="bg-black text-white p-[10px] rounded-4xl px-[60px] firstudbtn">
+                              <button className="relative top-[25px] left-[-15px]" style={{overflow:'hidden', textWrap:'nowrap'}}>Check it Out</button>
+                        </a>
+                      
+                </div>
+                    </FadeInSection>
+
+               </div>
+                
+                 <div className="my-[70px]">
+                    <SlideIn delay={0.6}>
+
+                    <div className="grid grid-cols-2 relative left-[70px] DEvriftmain ">
+
+                 <div className="relative left-[20%] grid grid-cols-1 DEvriftmain-1">
+                        <div className="bg-gray-200 inline-grid max-w-[25%] rounded-[20px] m-[40px] overflow-hidden py-[30px]"><img src={Csslogo} alt="" className="relative top-[-5px]"/></div>
+
+                        <div className="bg-gray-200 inline-grid max-w-[25%] rounded-[20px] m-[40px] overflow-hidden py-[30px]"><img src={Beast} alt=""  className="relative top-[-5px]"/></div>
+                    </div>
+                <div className="grid grid-cols-2 relative left-[-40%]">
+                    <div className="flex gap-[20px] bg-gray-200 p-[20px] px-[50px] w-[170%] overflow-hidden rounded-[30px]">
+                        <img src={devrift1} alt=""  className="max-w-[120%] h-[80%]  rounded-[50px] relative top-[10px] left-[20px] border-4 border-black"  />
+                        <img src={devrift2} alt=""  className="max-w-[120%] h-[80%] rounded-[50px] relative top-[105px] left-[40px] border-4 border-black"/>
+                    </div>
+                    </div>
+
+                   
+
+                </div>
+                    </SlideIn>
+
+                <div className="minofmeintg minofmeintg3332 flex gap-[160px] max-w-[45%] relative left-[23%] p-5 rounded-[50px] my-[50px]" >
+                        <h3 className="relative top-[1px] left-[20px] w-[70%] text-start overflow-hidden">TThis is Devrift a Website/Wep app development interprise which I  am the  Co-Founder <span className="bg-gray-300 p-[5px] rounded-[5px]">ReactJs</span> <span className="bg-gray-300 p-[5px] rounded-[5px]">CSS</span> <span className="bg-gray-300 p-[5px] rounded-[5px]">Framer</span> </h3>
+                        <a href="https://chrisbank.vercel.app" target="_blank" rel="noopener noreferrer"className="bg-black text-white p-[10px] rounded-4xl px-[60px] firstudbtn">
+                              <button className="relative top-[15px] left-[-15px]" style={{overflow:'hidden', textWrap:'nowrap'}}>Check it Out</button>
+                        </a>
+                      
+                </div>
+
+                </div>
+
+                 <div>
+                <SlideIn delay={0.8}>
+                    
+                <div className="grid grid-cols-2 relative left-[20%]">
+                    <div className="flex gap-[20px] bg-gray-200 p-[10px] w-[80%] rounded-[50px]">
+                        <img src={space1} alt=""  className="max-w-[80%] h-[80%]  rounded-[50px] relative top-[105px] left-[40px] border-4 border-black"  />
+                        <img src={space2} alt=""  className="max-w-[80%] h-[80%] rounded-[50px] relative top-[10px] left-[40px] border-4 border-black"/>
+                    </div>
+
+                    <div className="relative left-[-20%] grid grid-cols-1">
+                        <div className="bg-gray-200 inline-grid max-w-[25%] rounded-[20px] m-[40px]"><img src={Csslogo} alt="" className="relative top-[20px]"/></div>
+
+                        <div className="bg-gray-200 inline-grid max-w-[25%] rounded-[20px] m-[40px]"><img src={Beast} alt=""  className="relative top-[20px]"/></div>
+                    </div>
+
+                </div>
+                </SlideIn>
+
+                <div className="minofmeintg minofmeintg3332 flex gap-[160px] max-w-[45%] relative left-[23%] p-5 rounded-[50px] my-[50px]" >
+                        <h3 className="relative top-[1px] left-[20px] w-[70%] text-start overflow-hidden">This is a Real-Estate  website where you can scout and check for the best homes Wealth-Space Properties have  <span className="bg-gray-300 p-[5px] rounded-[5px]">ReactJs</span> <span className="bg-gray-300 p-[5px] rounded-[5px]">CSS</span> </h3>
+                        <a href="https://chrisbank.vercel.app" target="_blank" rel="noopener noreferrer"className="bg-black text-white p-[10px] rounded-4xl px-[60px] firstudbtn">
+                              <button className="relative top-[25px] left-[-15px]" style={{overflow:'hidden', textWrap:'nowrap'}}>Check it Out</button>
+                        </a>
+                      
+                </div>
+
+               </div>
+
+
+            </div>
+
+
+
+
 
                 <div className="mx-[140px] mb-[150px] bg-gray-300 p-[50px] rounded-[30px] ogapics">
+                   
+
                     <div>
                         <h2 className="text-[40px]">
                         Behind the Pixels
                         </h2>
                         <p>Finally,meet the young man behind the pixels a quick peek into my world</p>
                     </div>
+                     
 
                     <div className="flex gap-20 my-[40px] overflow-hidden underthecanopy ">
                         <div className="kings-ofmin gap-20  overflow-hidden relative top-2.5 ">
@@ -206,9 +319,7 @@ const Portfolio =()=>{
                     <FontAwesomeIcon icon={faLinkedin} className="thnfminiffi" />
                          <p>Linked In</p>
                     </a>
-                     
-
-                       
+                            
                 </div>
                 
                

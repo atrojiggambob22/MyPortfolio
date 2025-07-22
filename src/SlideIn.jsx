@@ -27,7 +27,7 @@ const SlideIn = ({ children, from = "left", duration = 0.8, delay = 0 }) => {
       ref={ref}
       initial={variants[from]}
       animate={controls}
-      transition={{ duration, delay, ease: "easeOut" }}
+      transition={{ duration, delay, ease: "linear" }}
     >
       {children}
     </motion.div>

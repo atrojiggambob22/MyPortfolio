@@ -41,7 +41,7 @@
 }
 /* This is for the image horizintal scrolling infininte */
 .babascroll{
-    overflow: hidden;
+overflow: hidden;
   white-space: nowrap;
   position: relative;
   /* left:20%; */
@@ -123,12 +123,9 @@ overflow: hidden;
     border:rgba(0, 0, 0, 0.34) solid 5px;
 }
 /* All these are part of thhe footer */
-.thisimhs{
-    
+.thisimhs{  
     width: 180px;
-  
-    text-align: center;
-   
+    text-align: center; 
     
 }
 .beforethemfoots{
@@ -159,9 +156,7 @@ footer img{
 @media  (min-width:200px) and (max-width:800px){
     
 
-   .mingodrtheb{
-    display: none;
-   }
+  
     /* this style is for the paragraph  */
     .firstvhaimsn{
         font-size: 30px !important;
@@ -361,5 +356,57 @@ footer img{
     .thnfminiffi{
          position: relative;
         top: 5px;
+    }
+    .Activebtns{
+        gap: 15px;
+        top:-50px;
+    }
+    .Hirebtn{
+        padding: 10px 60px;
+    }
+
+    .Availablebtn{
+        border-radius: 10px;
+        padding: 10px 40px;
+    }
+    .bankSet{
+        grid-template-columns: repeat(1,1fr);
+        left: 10%;
+    }
+    .MinSet1{
+       display: flex;
+       left:-15px;
+    }
+    .MinSet1-sub{
+        position: relative;
+        left: -20px;
+        top:1px;
+        width: 120%;
+    }
+    .MinSet1-sub{
+        margin: 20px;
+
+        /* padding: 10px 50px; */
+        /* width: 40%; */
+    }
+    .CheifeBA{
+        overflow: hidden;
+        padding:20px 50px;
+        /* height: 50vh; */
+
+    }
+    .CheifeBA img{
+        position: relative;
+        /* top: 50px; */
+        border-radius:20px ;
+        border: 2px solid black;
+    }
+
+    .DEvriftmain{
+       display: flex;
+       flex-direction: column;
+    }
+    .DEvriftmain-1{
+        grid-template-columns: repeat(2,1fr);
     }
 }

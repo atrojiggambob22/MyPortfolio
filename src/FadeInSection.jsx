@@ -7,6 +7,7 @@ const FadeInSection = ({ children, delay = 0 }) => {
   const inView = useInView(ref, { once: true });
 
   return (
+    
     <motion.div
    
       ref={ref}
