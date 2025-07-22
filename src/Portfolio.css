@@ -300,6 +300,12 @@ footer img{
         margin: 1px 0px !important;
 
     }
+    .minofmeintg3332 a{
+        padding: auto;
+    }
+    .minofmeintg3332 a button{
+        left: 3px !important;
+    }
     .subparentofthemp{
         flex-direction: column !important;
         
@@ -324,11 +330,11 @@ footer img{
         top:-60px !important;
     }
     .minofmeintg3332{
-        top:-90px !important;
+       max-width: 80%;
+       left: 40px !important;
+       gap: 40px;
     }
-    .Whythem{
-        /* margin: 10px 0px !important; */
-    }
+   
     .firimfmfnspa2{
         border-radius:20px !important;
         border: 4px solid black !important;
@@ -381,13 +387,16 @@ footer img{
         position: relative;
         left: -20px;
         top:1px;
-        width: 120%;
+        width: 140%;
+        /* padding: 10px 50px; */
+    }
+    .MinSet1 img{
+        max-width: 120%;
+        left: -1px;
     }
     .MinSet1-sub{
         margin: 20px;
-
-        /* padding: 10px 50px; */
-        /* width: 40%; */
+        max-width: 60% !important;
     }
     .CheifeBA{
         overflow: hidden;
@@ -397,16 +406,56 @@ footer img{
     }
     .CheifeBA img{
         position: relative;
-        /* top: 50px; */
+        left: 20px;
         border-radius:20px ;
-        border: 2px solid black;
+        border: 3px solid black;
+       
     }
 
     .DEvriftmain{
        display: flex;
        flex-direction: column;
+       left: 40px;
     }
     .DEvriftmain-1{
         grid-template-columns: repeat(2,1fr);
+        left:-10px;
+        margin: 10px 40px;
+
     }
+    .DEvriftmain-1-sub22{
+        margin: 4px !important;
+        max-width: 65% !important;
+        position: relative;
+        padding: 10px;
+        /* left: -10px !important; */
+    }
+    .mainDEvriftmain-1-sub22{
+        left:1% ;
+        /* max-width: 40%; */
+    }
+    .mainDEvriftmain-1-sub2-1{
+        width: 160%;
+        margin: 30px auto;
+    }
+    .mainDEvriftmain-1-sub22 img{
+        border-radius: 20px;
+    }
+
+}
+@media (min-width:310px) and (max-width:350px){
+    nav{
+        gap: 50px;
+    }
+    .firppdonf{
+       width: 80%;
+       position: relative;
+       left:30px !important;
+       /* height: 50vh; */
+    }
+    .Hirebtn{
+       text-wrap: nowrap; 
+       padding: 10px 20px;
+    }
+    
 }

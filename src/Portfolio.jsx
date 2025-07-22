@@ -35,7 +35,7 @@ const Portfolio =()=>{
         
         <ScrollIndicator/>
        
-        <div className="bg-gray-100">
+        <body className="bg-gray-100">
             <div className="overflow-y-hidden">
                 <FadeInSection delay={0.1} >
 
@@ -68,7 +68,7 @@ const Portfolio =()=>{
                     
                
 
-            <div className="h-[20vh]" >
+            <div className="h-[40vh]" >
 
                 <FadeInSection delay={0.7}>
 
@@ -83,7 +83,7 @@ const Portfolio =()=>{
                
            
 
-             <div className="text-center flex justify-center gap-[50px]  relative top-[-120px] Activebtns">
+             <div className="text-center flex justify-center gap-[50px]  relative top-[-150px] Activebtns">
                  <FadeInSection delay={0.8}>
 
                 <div className="text-white bg-black p-[5px] px-[120px] rounded-[10px] py-[15px] Hirebtn">
@@ -165,12 +165,12 @@ const Portfolio =()=>{
                     <div className="grid grid-cols-2 relative left-[70px] DEvriftmain ">
 
                  <div className="relative left-[20%] grid grid-cols-1 DEvriftmain-1">
-                        <div className="bg-gray-200 inline-grid max-w-[25%] rounded-[20px] m-[40px] overflow-hidden py-[30px]"><img src={Csslogo} alt="" className="relative top-[-5px]"/></div>
+                        <div className="bg-gray-200 inline-grid max-w-[25%] rounded-[20px] m-[40px] overflow-hidden py-[30px] DEvriftmain-1-sub22" ><img src={Csslogo} alt="" className="relative top-[-5px]"/></div>
 
-                        <div className="bg-gray-200 inline-grid max-w-[25%] rounded-[20px] m-[40px] overflow-hidden py-[30px]"><img src={Beast} alt=""  className="relative top-[-5px]"/></div>
+                        <div className="bg-gray-200 inline-grid max-w-[25%] rounded-[20px] m-[40px] overflow-hidden py-[30px] DEvriftmain-1-sub22"><img src={Beast} alt=""  className="relative top-[-5px]"/></div>
                     </div>
-                <div className="grid grid-cols-2 relative left-[-40%]">
-                    <div className="flex gap-[20px] bg-gray-200 p-[20px] px-[50px] w-[170%] overflow-hidden rounded-[30px]">
+                <div className="grid grid-cols-2 relative left-[-40%] mainDEvriftmain-1-sub22">
+                    <div className="flex gap-[20px] bg-gray-200 p-[20px] px-[50px] w-[170%] overflow-hidden rounded-[30px] mainDEvriftmain-1-sub2-1">
                         <img src={devrift1} alt=""  className="max-w-[120%] h-[80%]  rounded-[50px] relative top-[10px] left-[20px] border-4 border-black"  />
                         <img src={devrift2} alt=""  className="max-w-[120%] h-[80%] rounded-[50px] relative top-[105px] left-[40px] border-4 border-black"/>
                     </div>
@@ -182,7 +182,7 @@ const Portfolio =()=>{
                     </SlideIn>
 
                 <div className="minofmeintg minofmeintg3332 flex gap-[160px] max-w-[45%] relative left-[23%] p-5 rounded-[50px] my-[50px]" >
-                        <h3 className="relative top-[1px] left-[20px] w-[70%] text-start overflow-hidden">TThis is Devrift a Website/Wep app development interprise which I  am the  Co-Founder <span className="bg-gray-300 p-[5px] rounded-[5px]">ReactJs</span> <span className="bg-gray-300 p-[5px] rounded-[5px]">CSS</span> <span className="bg-gray-300 p-[5px] rounded-[5px]">Framer</span> </h3>
+                        <h3 className="relative top-[1px] left-[20px] w-[70%] text-start overflow-hidden">This is Devrift a Website/Wep app development interprise which I  am the  Co-Founder <span className="bg-gray-300 p-[5px] rounded-[5px]">ReactJs</span> <span className="bg-gray-300 p-[5px] rounded-[5px]">CSS</span> <span className="bg-gray-300 p-[5px] rounded-[5px]">Framer</span> </h3>
                         <a href="https://chrisbank.vercel.app" target="_blank" rel="noopener noreferrer"className="bg-black text-white p-[10px] rounded-4xl px-[60px] firstudbtn">
                               <button className="relative top-[15px] left-[-15px]" style={{overflow:'hidden', textWrap:'nowrap'}}>Check it Out</button>
                         </a>
@@ -191,19 +191,20 @@ const Portfolio =()=>{
 
                 </div>
 
+
                  <div>
                 <SlideIn delay={0.8}>
                     
-                <div className="grid grid-cols-2 relative left-[20%]">
-                    <div className="flex gap-[20px] bg-gray-200 p-[10px] w-[80%] rounded-[50px]">
+                <div className="grid grid-cols-2 relative left-[20%] bankSet">
+                    <div className="flex gap-[20px] bg-gray-200 p-[10px] w-[80%] rounded-[50px] CheifeBA">
                         <img src={space1} alt=""  className="max-w-[80%] h-[80%]  rounded-[50px] relative top-[105px] left-[40px] border-4 border-black"  />
                         <img src={space2} alt=""  className="max-w-[80%] h-[80%] rounded-[50px] relative top-[10px] left-[40px] border-4 border-black"/>
                     </div>
 
-                    <div className="relative left-[-20%] grid grid-cols-1">
-                        <div className="bg-gray-200 inline-grid max-w-[25%] rounded-[20px] m-[40px]"><img src={Csslogo} alt="" className="relative top-[20px]"/></div>
+                    <div className="relative left-[-20%] grid grid-cols-1 MinSet1">
+                        <div className="bg-gray-200 inline-grid max-w-[25%] rounded-[20px] m-[40px]"><img src={Csslogo} alt="" className="relative top-[20px] MinSet1-sub"/></div>
 
-                        <div className="bg-gray-200 inline-grid max-w-[25%] rounded-[20px] m-[40px]"><img src={Beast} alt=""  className="relative top-[20px]"/></div>
+                        <div className="bg-gray-200 inline-grid max-w-[25%] rounded-[20px] m-[40px]"><img src={Beast} alt=""  className="relative top-[20px] MinSet1-sub"/></div>
                     </div>
 
                 </div>
@@ -325,7 +326,7 @@ const Portfolio =()=>{
                
               
 
-        </div>
+        </body>
         </>
     )
 }
